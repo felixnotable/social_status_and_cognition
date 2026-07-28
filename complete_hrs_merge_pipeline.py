@@ -86,7 +86,9 @@ def read_predicted_cognition(predicted_dta: Path) -> pd.DataFrame:
     read the predicted cognition .dta and extract the interested columns
     """
     cols = ["hhidpn", "wave", "Cog", "CogSd", "PrDem", "PrCIND", "PrNorm"]
+    # turnk the raw data and only returns the interested variables. 
     cognition = pd.read_stata(predicted_dta, columns=cols, convert_categoricals=False)
+    # trunck the data to only contains wave 6-13
     cognition = cognition[cognition["wave"].isin(WAVES)].copy()
     # convert columns to int64 type
     cognition["hhidpn"] = cognition["hhidpn"].astype("int64")
@@ -279,6 +281,7 @@ def build_dataset(predicted_dta: Path, hhrs_dta: Path, rand_dta: Path) -> pd.Dat
 
 
 def main() -> None:
+    # define the input arguments. 
     parser = argparse.ArgumentParser(description="Rebuild the HRS cognition-loneliness analysis dataset.")
     parser.add_argument("--source-dir", type=Path, required=True)
     parser.add_argument("--work-dir", type=Path, default=Path("work"))
@@ -286,12 +289,16 @@ def main() -> None:
     parser.add_argument("--audit", type=Path, default=Path("merged_dataset_validation.json"))
     args = parser.parse_args()
 
+    # unzip the files, extract the .dta from 3 resources. 
     predicted_dta, hhrs_dta, rand_dta = prepare_sources(args.source_dir, args.work_dir)
+    # final stores the merged table which is indexed by hhidpn+wave and all the interested variables from 3 resources
     final = build_dataset(predicted_dta, hhrs_dta, rand_dta)
+    # converted it to csv and write to the output file
     final.to_csv(args.output, index=False, encoding="utf-8-sig")
 
-    audit = validate(final)
-    args.audit.write_text(json.dumps(audit, indent=2), encoding="utf-8")
+    # calculate the statistic data from the merged table and write to the audit file
+    audit_result = validate(final)
+    args.audit.write_text(json.dumps(audit_result, indent=2), encoding="utf-8")
     print(f"Wrote {args.output} ({len(final):,} rows x {final.shape[1]} columns)")
     print(f"Wrote {args.audit}")
 
