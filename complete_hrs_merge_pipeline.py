@@ -8,6 +8,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+# the dataset includes data from wave 6 to wave 13
 WAVES = list(range(6, 14))
 YEAR_BY_WAVE = {6: 2002, 7: 2004, 8: 2006, 9: 2008, 10: 2010, 11: 2012, 12: 2014, 13: 2016}
 
