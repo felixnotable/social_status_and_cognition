@@ -163,6 +163,7 @@ def read_rand_covariates(rand_dta: Path) -> pd.DataFrame:
         selected.extend([
             f"r{wave}agey_e",
             f"r{wave}iwendy",
+            f"h{wave}atotw",
             f"r{wave}mstat",
         ])
     # get raw data with the interested columns
@@ -178,7 +179,7 @@ def read_rand_covariates(rand_dta: Path) -> pd.DataFrame:
     for wave in WAVES:
         piece = rand[[
             "hhidpn", "ragender", "raedyrs", "raracem", "rahispan",
-            f"r{wave}agey_e", f"r{wave}iwendy", f"r{wave}mstat",
+            f"r{wave}agey_e", f"r{wave}iwendy", f"h{wave}atotw", f"r{wave}mstat",
         ]].copy()
         piece.columns = [
             "hhidpn", "ragender", "raedyrs", "raracem", "rahispan",
