@@ -139,6 +139,85 @@ def qualifying_ids(
     return sorted(eligible, key=hhidpn_sort_key)
 
 
+def make_output_row(
+    hhidpn: str,
+    cycle: str,
+    source_row: Mapping[str, str] | None,
+    fields: Sequence[str],
+) -> Dict[str, str]:
+    """Create one cohort-cycle row without imputing absent values."""
+    output = {field: "" for field in fields}
+    output["hhidpn"] = hhidpn
+    output["cycle"] = cycle
+
+    if source_row is not None:
+        for field in fields:
+            if field not in {"hhidpn", "cycle"}:
+                output[field] = source_row.get(field, "")
+
+    return output
+
+
+def write_cohort(
+    cohort_name: str,
+    wave_cycle_pairs: Sequence[Tuple[str, str]],
+    rows_by_id: Mapping[str, Mapping[str, Mapping[str, str]]],
+    fields: Sequence[str],
+    output_path: Path,
+) -> Dict[str, object]:
+    """
+    Write one cohort CSV and return validation statistics.
+    input args:
+        cohort_name: A or B
+        wave_cycle_pairs: wave to cycle pairs, e.g. wave 8 -> T1
+        rows_by_id: hhidpn+wave indexed data
+        fields: output fields with wave+year being replaced with cycle
+        output_path: the location for output file
+    """
+    # get the eligible hhidpns for this cohort
+    ids = qualifying_ids(rows_by_id, wave_cycle_pairs)
+    synthetic_rows = 0
+    loneliness_counts: Counter[int] = Counter()
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with output_path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
+        writer.writeheader()
+
+        for hhidpn in ids:
+            wave_rows = rows_by_id[hhidpn]
+            observed_loneliness = 0
+
+            for wave, cycle in wave_cycle_pairs:
+                source_row = wave_rows.get(wave)
+                if source_row is None:
+                    # this hhidpn misses the wave, make an empty row. 
+                    synthetic_rows += 1
+                elif is_nonmissing(source_row.get("loneliness3")):
+                    observed_loneliness += 1
+
+                writer.writerow(
+                    make_output_row(
+                        hhidpn=hhidpn,
+                        cycle=cycle,
+                        source_row=source_row,
+                        fields=fields,
+                    )
+                )
+
+            loneliness_counts[observed_loneliness] += 1
+
+    expected_rows = len(ids) * 3
+    return {
+        "cohort": cohort_name,
+        "participants": len(ids),
+        "rows": expected_rows,
+        "synthetic_missing_wave_rows": synthetic_rows,
+        "loneliness_observations_per_participant": dict(sorted(loneliness_counts.items())),
+        "output": str(output_path),
+    }
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Split merged HRS data into alternating psychosocial cohorts."
@@ -172,7 +251,20 @@ def main() -> None:
             f"{len(overlap)} participants qualify for both cohorts. "
             f"Examples: {examples}. A manual cohort-assignment rule is required."
         )
-        
+
+    summaries = []
+    for cohort_name, wave_cycle_pairs in COHORTS.items():
+        output_path = args.output_dir / f"HRS_psychosocial_cohort_{cohort_name}.csv"
+        summaries.append(
+            write_cohort(
+                cohort_name=cohort_name,
+                wave_cycle_pairs=wave_cycle_pairs,
+                rows_by_id=rows_by_id,
+                fields=fields,
+                output_path=output_path,
+            )
+        )
+
     print(f"Source participants: {len(rows_by_id):,}")
     print(f"Output columns ({len(fields)}): {', '.join(fields)}")
 
