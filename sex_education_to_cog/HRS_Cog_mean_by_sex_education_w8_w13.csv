@@ -1,0 +1,10 @@
+﻿sex,education_group,n,mean_Cog_wave8,mean_Cog_wave9,mean_Cog_wave10,mean_Cog_wave11,mean_Cog_wave12,mean_Cog_wave13
+Male,Less than 12 years,243,1.455,1.405,1.323,1.226,1.115,0.943
+Male,12 years,390,1.629,1.597,1.521,1.443,1.345,1.202
+Male,13-15 years,200,1.779,1.741,1.65,1.568,1.472,1.311
+Male,16 or more years,310,1.934,1.888,1.802,1.724,1.621,1.459
+Male,Missing,1,2.263,2.373,2.419,2.421,2.339,2.306
+Female,Less than 12 years,361,1.581,1.526,1.429,1.344,1.23,1.053
+Female,12 years,580,1.803,1.736,1.63,1.535,1.408,1.227
+Female,13-15 years,349,1.902,1.84,1.743,1.655,1.528,1.348
+Female,16 or more years,269,1.998,1.929,1.833,1.74,1.621,1.439
