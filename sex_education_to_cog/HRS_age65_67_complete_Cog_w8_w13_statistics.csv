@@ -1,0 +1,13 @@
+﻿section,sex,education_group,count,denominator,percentage
+Sex distribution,Male,,1144,2703,42.32
+Sex distribution,Female,,1559,2703,57.68
+Education distribution within sex,Male,Less than 12 years,243,1144,21.24
+Education distribution within sex,Male,12 years,390,1144,34.09
+Education distribution within sex,Male,13-15 years,200,1144,17.48
+Education distribution within sex,Male,16 or more years,310,1144,27.1
+Education distribution within sex,Male,Missing,1,1144,0.09
+Education distribution within sex,Female,Less than 12 years,361,1559,23.16
+Education distribution within sex,Female,12 years,580,1559,37.2
+Education distribution within sex,Female,13-15 years,349,1559,22.39
+Education distribution within sex,Female,16 or more years,269,1559,17.25
+Education distribution within sex,Female,Missing,0,1559,0.0
