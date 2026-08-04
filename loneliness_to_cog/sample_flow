@@ -8,3 +8,10 @@
 | Without dementia at T2                        |    2,603 |    2,423 |
 | Complete core covariates                      |    2,603 |    2,423 |
 
+| Model                                   | Cohort A | Cohort B |  Combined |
+| --------------------------------------- | -------: | -------: | --------: |
+| Basic analysis                          |    2,722 |    2,523 | **5,245** |
+| Living-alone model                      |    2,722 |    2,523 | **5,245** |
+| Fully adjusted model                    |    2,722 |    2,521 | **5,243** |
+| 27-point cognition sensitivity analysis |    2,623 |    2,432 | **5,055** |
+
