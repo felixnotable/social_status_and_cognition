@@ -1,0 +1,20 @@
+check,value,expected
+input_participants,8041,
+output_participants,8041,8041
+output_unique_hhidpn,8041,8041
+cohort_A_participants,4272,4272
+cohort_B_participants,3769,3769
+matched_to_LB_file,8041,8041
+matched_to_Langa_Weir_file,8041,8041
+cog T2_vs_Cog_T2_numeric_mismatches,0,0
+cog T3_vs_Cog_T3_numeric_mismatches,0,0
+classification_present_but_cog27_missing_T1,121,
+classification_present_but_cog27_missing_T2,210,
+classification_present_but_cog27_missing_T3,272,
+unexpected_LBCOMP_codes_at_T1_or_T2,0,0
+eligible_basic_analysis_count,5245,
+eligible_cog27_sensitivity_analysis_count,5055,
+eligible_living_alone_model_count,5245,
+eligible_fully_adjusted_model_count,5243,
+living_alone_not_nested_in_basic,0,0
+fully_adjusted_not_nested_in_living_alone,0,0

@@ -1,0 +1,272 @@
+{
+  "waves": {
+    "8": {
+      "year": 2006,
+      "rows": 18469,
+      "unique_hhidpn": 18469,
+      "duplicate_hhidpn": 0,
+      "source_variables": {
+        "who_answered": "KLB051",
+        "lb_rtype": "KLBRTYPE",
+        "eligibility": "KLBELIG",
+        "completion_mode": "KLBCOMP"
+      },
+      "distributions": {
+        "who_answered_raw": {
+          "1": 7383,
+          "blank": 10989,
+          "2": 97
+        },
+        "respondent_type": {
+          "1": 7383,
+          "blank": 10989,
+          "2": 97
+        },
+        "lb_rtype_raw": {
+          "4": 8375,
+          "1": 8899,
+          "2": 889,
+          "3": 306
+        },
+        "lb_eligible_raw": {
+          "1": 8681,
+          "5": 9788
+        },
+        "lb_completion_mode_raw": {
+          "1": 7337,
+          "blank": 9764,
+          "4": 95,
+          "5": 975,
+          "2": 298
+        }
+      }
+    },
+    "9": {
+      "year": 2008,
+      "rows": 17217,
+      "unique_hhidpn": 17217,
+      "duplicate_hhidpn": 0,
+      "source_variables": {
+        "who_answered": "LLB051",
+        "lb_rtype": "LLBRTYPE",
+        "eligibility": "LLBELIG",
+        "completion_mode": "LLBCOMP"
+      },
+      "distributions": {
+        "who_answered_raw": {
+          "blank": 10333,
+          "1": 6106,
+          "2": 660,
+          "3": 118
+        },
+        "respondent_type": {
+          "blank": 10451,
+          "1": 6106,
+          "2": 660
+        },
+        "lb_rtype_raw": {
+          "1": 8921,
+          "2": 698,
+          "4": 7394,
+          "3": 204
+        },
+        "lb_eligible_raw": {
+          "5": 8921,
+          "1": 8296
+        },
+        "lb_completion_mode_raw": {
+          "blank": 8910,
+          "1": 6857,
+          "5": 1234,
+          "4": 116,
+          "2": 100
+        }
+      }
+    },
+    "10": {
+      "year": 2010,
+      "rows": 22034,
+      "unique_hhidpn": 22034,
+      "duplicate_hhidpn": 0,
+      "source_variables": {
+        "who_answered": "MLB051",
+        "lb_rtype": "MLBRTYPE",
+        "eligibility": "MLBELIG",
+        "completion_mode": "MLBCOMP"
+      },
+      "distributions": {
+        "who_answered_raw": {
+          "1": 7293,
+          "blank": 13832,
+          "9": 168,
+          "2": 625,
+          "3": 116
+        },
+        "respondent_type": {
+          "1": 7293,
+          "blank": 14116,
+          "2": 625
+        },
+        "lb_rtype_raw": {
+          "4": 9792,
+          "1": 10819,
+          "2": 1146,
+          "3": 275,
+          "blank": 2
+        },
+        "lb_eligible_raw": {
+          "1": 11213,
+          "5": 10819,
+          "blank": 2
+        },
+        "lb_completion_mode_raw": {
+          "1": 8208,
+          "blank": 10799,
+          "5": 2903,
+          "4": 114,
+          "2": 10
+        }
+      }
+    },
+    "11": {
+      "year": 2012,
+      "rows": 20554,
+      "unique_hhidpn": 20554,
+      "duplicate_hhidpn": 0,
+      "source_variables": {
+        "who_answered": "NLB085",
+        "lb_rtype": "NLBRTYPE",
+        "eligibility": "NLBELIG",
+        "completion_mode": "NLBCOMP"
+      },
+      "distributions": {
+        "who_answered_raw": {
+          "blank": 14936,
+          "1": 5234,
+          "2": 302,
+          "3": 82
+        },
+        "respondent_type": {
+          "blank": 15018,
+          "1": 5234,
+          "2": 302
+        },
+        "lb_rtype_raw": {
+          "1": 10475,
+          "2": 892,
+          "4": 8966,
+          "3": 221
+        },
+        "lb_eligible_raw": {
+          "5": 10475,
+          "1": 10079
+        },
+        "lb_completion_mode_raw": {
+          "blank": 10474,
+          "1": 7306,
+          "5": 2668,
+          "4": 82,
+          "2": 24
+        }
+      }
+    },
+    "12": {
+      "year": 2014,
+      "rows": 18747,
+      "unique_hhidpn": 18747,
+      "duplicate_hhidpn": 0,
+      "source_variables": {
+        "who_answered": "OLB077",
+        "lb_rtype": "OLBRTYPE",
+        "eligibility": "OLBELIG",
+        "completion_mode": "OLBCOMP"
+      },
+      "distributions": {
+        "who_answered_raw": {
+          "1": 6677,
+          "blank": 11503,
+          "2": 461,
+          "3": 106
+        },
+        "respondent_type": {
+          "1": 6677,
+          "blank": 11609,
+          "2": 461
+        },
+        "lb_rtype_raw": {
+          "4": 8311,
+          "1": 9198,
+          "3": 173,
+          "2": 1065
+        },
+        "lb_eligible_raw": {
+          "1": 9549,
+          "5": 9198
+        },
+        "lb_completion_mode_raw": {
+          "1": 7425,
+          "blank": 9193,
+          "5": 2013,
+          "2": 10,
+          "4": 106
+        }
+      }
+    },
+    "13": {
+      "year": 2016,
+      "rows": 20912,
+      "unique_hhidpn": 20912,
+      "duplicate_hhidpn": 0,
+      "source_variables": {
+        "who_answered": "PLB077",
+        "lb_rtype": "PLBRTYPE",
+        "eligibility": "PLBELIG",
+        "completion_mode": "PLBCOMP"
+      },
+      "distributions": {
+        "who_answered_raw": {
+          "blank": 14889,
+          "2": 238,
+          "1": 5753,
+          "3": 32
+        },
+        "respondent_type": {
+          "blank": 14921,
+          "2": 238,
+          "1": 5753
+        },
+        "lb_rtype_raw": {
+          "2": 1136,
+          "1": 10674,
+          "4": 8934,
+          "3": 168
+        },
+        "lb_eligible_raw": {
+          "1": 10238,
+          "5": 10674
+        },
+        "lb_completion_mode_raw": {
+          "5": 3882,
+          "blank": 10660,
+          "1": 6338,
+          "4": 32
+        }
+      }
+    }
+  },
+  "overall": {
+    "unique_respondents_wide": 31102,
+    "long_rows": 117933,
+    "wave_mapping": {
+      "8": 2006,
+      "9": 2008,
+      "10": 2010,
+      "11": 2012,
+      "12": 2014,
+      "13": 2016
+    },
+    "duplicates_within_wave_total": 0,
+    "main_output": "HRS_LB_respondent_type_w8_w13_wide.csv",
+    "supplementary_long_output": "HRS_LB_respondent_type_w8_w13_long.csv"
+  }
+}

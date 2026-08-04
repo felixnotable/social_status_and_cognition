@@ -1,0 +1,17 @@
+﻿column_pattern,description
+hhidpn,"Numeric-style concatenation of HHID and PN, with leading zeros removed; designed to resemble common HRS merge IDs such as 3010."
+hhidpn_padded,Nine-character HHID+PN identifier preserving all leading zeros.
+hhid,"Six-character household identification number, preserved as text."
+pn,"Three-character respondent person number, preserved as text."
+respondent_type_w8 ... respondent_type_w13,"Harmonized WHO ANSWERED THE QUESTIONS source code. Only codes 1 and 2 are retained; source code 3, source code 9, and blank values are output as blank."
+lb_record_present_wN,1 if the respondent has a row in that wave's LB respondent file; 0 otherwise.
+who_answered_raw_wN,"Unchanged source value from KLB051, LLB051, MLB051, NLB085, OLB077, or PLB077. Retains codes such as 3 and 9."
+lb_rtype_raw_wN,Unchanged HRS RESPONDENT TYPE INDICATOR value from XLBRTYPE. This is distinct from the WHO ANSWERED THE QUESTIONS item.
+lb_eligible_raw_wN,Unchanged Leave-Behind eligibility value from XLBELIG.
+lb_completion_mode_raw_wN,Unchanged Leave-Behind questionnaire completion-mode value from XLBCOMP.
+n_lb_wave_records,Number of the six LB source files in which the respondent has a record.
+n_respondent_type_observed,Number of waves in which respondent_type_wN equals 1 or 2.
+n_code1_waves,Number of retained respondent-type values equal to 1.
+n_code2_waves,Number of retained respondent-type values equal to 2.
+first_lb_wave / last_lb_wave,Earliest and latest HRS wave with an LB source-file record for this respondent.
+wave mapping,2006=W8; 2008=W9; 2010=W10; 2012=W11; 2014=W12; 2016=W13.
