@@ -1,0 +1,82 @@
+﻿section,measure,cohort,statistic,count,denominator,percent,notes
+structural_validation,Master dataset,Combined,original_row_count,8041,8041,100.0,
+structural_validation,Merged dataset,Combined,merged_row_count,8041,8041,100.0,
+structural_validation,Merged dataset,Combined,unique_cohort_hhidpn,8041,8041,100.0,Must equal row count.
+structural_validation,Merged dataset,Combined,original_columns_retained,69,69,100.0,Original column names/order retained.
+structural_validation,Merged dataset,Combined,new_columns_added,6,6,100.0,"weekly_contact_friends_T1, weekly_contact_friends_T2, weekly_contact_other_relatives_T1, weekly_contact_other_relatives_T2, weekly_contact_children_T1, weekly_contact_children_T2"
+structural_validation,Merged dataset,Combined,all_original_cell_values_unchanged,1,1,100.0,1 means every original cell value was unchanged.
+measurement_availability,Friends,A,valid_T1,3887,4272,91.0,
+measurement_availability,Friends,A,valid_T2,4011,4272,93.9,
+measurement_availability,Friends,A,valid_both_T1_T2,3640,4272,85.2,
+measurement_availability,Friends,B,valid_T1,3554,3769,94.3,
+measurement_availability,Friends,B,valid_T2,3522,3769,93.4,
+measurement_availability,Friends,B,valid_both_T1_T2,3317,3769,88.0,
+measurement_availability,Friends,Combined,valid_T1,7441,8041,92.5,
+measurement_availability,Friends,Combined,valid_T2,7533,8041,93.7,
+measurement_availability,Friends,Combined,valid_both_T1_T2,6957,8041,86.5,
+measurement_availability,Other relatives,A,valid_T1,3886,4272,91.0,
+measurement_availability,Other relatives,A,valid_T2,4020,4272,94.1,
+measurement_availability,Other relatives,A,valid_both_T1_T2,3656,4272,85.6,
+measurement_availability,Other relatives,B,valid_T1,3539,3769,93.9,
+measurement_availability,Other relatives,B,valid_T2,3565,3769,94.6,
+measurement_availability,Other relatives,B,valid_both_T1_T2,3345,3769,88.8,
+measurement_availability,Other relatives,Combined,valid_T1,7425,8041,92.3,
+measurement_availability,Other relatives,Combined,valid_T2,7585,8041,94.3,
+measurement_availability,Other relatives,Combined,valid_both_T1_T2,7001,8041,87.1,
+measurement_availability,Children,A,valid_T1,3656,4272,85.6,
+measurement_availability,Children,A,valid_T2,3728,4272,87.3,
+measurement_availability,Children,A,valid_both_T1_T2,3401,4272,79.6,
+measurement_availability,Children,B,valid_T1,3293,3769,87.4,
+measurement_availability,Children,B,valid_T2,3323,3769,88.2,
+measurement_availability,Children,B,valid_both_T1_T2,3095,3769,82.1,
+measurement_availability,Children,Combined,valid_T1,6949,8041,86.4,
+measurement_availability,Children,Combined,valid_T2,7051,8041,87.7,
+measurement_availability,Children,Combined,valid_both_T1_T2,6496,8041,80.8,
+transition_distribution,Friends,A,maintained_frequent_1_to_1,1958,3640,53.8,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Friends,A,increased_contact_0_to_1,481,3640,13.2,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Friends,A,decreased_contact_1_to_0,484,3640,13.3,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Friends,A,maintained_infrequent_0_to_0,717,3640,19.7,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Friends,B,maintained_frequent_1_to_1,1772,3317,53.4,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Friends,B,increased_contact_0_to_1,409,3317,12.3,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Friends,B,decreased_contact_1_to_0,476,3317,14.4,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Friends,B,maintained_infrequent_0_to_0,660,3317,19.9,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Friends,Combined,maintained_frequent_1_to_1,3730,6957,53.6,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Friends,Combined,increased_contact_0_to_1,890,6957,12.8,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Friends,Combined,decreased_contact_1_to_0,960,6957,13.8,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Friends,Combined,maintained_infrequent_0_to_0,1377,6957,19.8,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Other relatives,A,maintained_frequent_1_to_1,1316,3656,36.0,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Other relatives,A,increased_contact_0_to_1,602,3656,16.5,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Other relatives,A,decreased_contact_1_to_0,553,3656,15.1,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Other relatives,A,maintained_infrequent_0_to_0,1185,3656,32.4,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Other relatives,B,maintained_frequent_1_to_1,1258,3345,37.6,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Other relatives,B,increased_contact_0_to_1,505,3345,15.1,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Other relatives,B,decreased_contact_1_to_0,488,3345,14.6,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Other relatives,B,maintained_infrequent_0_to_0,1094,3345,32.7,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Other relatives,Combined,maintained_frequent_1_to_1,2574,7001,36.8,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Other relatives,Combined,increased_contact_0_to_1,1107,7001,15.8,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Other relatives,Combined,decreased_contact_1_to_0,1041,7001,14.9,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Other relatives,Combined,maintained_infrequent_0_to_0,2279,7001,32.6,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Children,A,maintained_frequent_1_to_1,2532,3401,74.4,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Children,A,increased_contact_0_to_1,253,3401,7.4,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Children,A,decreased_contact_1_to_0,290,3401,8.5,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Children,A,maintained_infrequent_0_to_0,326,3401,9.6,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Children,B,maintained_frequent_1_to_1,2323,3095,75.1,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Children,B,increased_contact_0_to_1,230,3095,7.4,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Children,B,decreased_contact_1_to_0,257,3095,8.3,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Children,B,maintained_infrequent_0_to_0,285,3095,9.2,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Children,Combined,maintained_frequent_1_to_1,4855,6496,74.7,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Children,Combined,increased_contact_0_to_1,483,6496,7.4,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Children,Combined,decreased_contact_1_to_0,547,6496,8.4,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+transition_distribution,Children,Combined,maintained_infrequent_0_to_0,611,6496,9.4,Calculated only for respondents with valid 0/1 contact at both T1 and T2.
+child_null_validation,Children,A,no_children_T1,252,4272,5.9,Participants remain in the merged dataset; weekly_contact_children_T1 is blank.
+child_null_validation,Children,A,no_children_T2,300,4272,7.0,Participants remain in the merged dataset; weekly_contact_children_T2 is blank.
+child_null_validation,Children,A,no_children_with_nonnull_contact_T1,0,252,0.0,Must be 0.
+child_null_validation,Children,A,no_children_with_nonnull_contact_T2,0,300,0.0,Must be 0.
+child_null_validation,Children,B,no_children_T1,258,3769,6.8,Participants remain in the merged dataset; weekly_contact_children_T1 is blank.
+child_null_validation,Children,B,no_children_T2,247,3769,6.6,Participants remain in the merged dataset; weekly_contact_children_T2 is blank.
+child_null_validation,Children,B,no_children_with_nonnull_contact_T1,0,258,0.0,Must be 0.
+child_null_validation,Children,B,no_children_with_nonnull_contact_T2,0,247,0.0,Must be 0.
+child_null_validation,Children,Combined,no_children_T1,510,8041,6.3,Participants remain in the merged dataset; weekly_contact_children_T1 is blank.
+child_null_validation,Children,Combined,no_children_T2,547,8041,6.8,Participants remain in the merged dataset; weekly_contact_children_T2 is blank.
+child_null_validation,Children,Combined,no_children_with_nonnull_contact_T1,0,510,0.0,Must be 0.
+child_null_validation,Children,Combined,no_children_with_nonnull_contact_T2,0,547,0.0,Must be 0.
