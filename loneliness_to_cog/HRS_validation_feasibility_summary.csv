@@ -1,0 +1,79 @@
+﻿section,measure,cohort,category,count,denominator,percent,notes
+Base sample,Self-completed loneliness at T1 and T2,A,Valid,2986,2986,100.0,Starting feasibility sample.
+Base sample,Self-completed loneliness at T1 and T2,B,Valid,2840,2840,100.0,Starting feasibility sample.
+Base sample,Self-completed loneliness at T1 and T2,Combined,Valid,5826,5826,100.0,Starting feasibility sample.
+Measurement availability,Weekly relatives/friends contact,A,Valid at T1 and T2,2973,2986,99.6,
+Measurement availability,Weekly relatives/friends contact,B,Valid at T1 and T2,2831,2840,99.7,
+Measurement availability,Weekly relatives/friends contact,Combined,Valid at T1 and T2,5804,5826,99.6,
+Measurement availability,Weekly child contact,A,Valid at T1 and T2,2690,2986,90.1,No-children status is kept separate and not recoded as low contact.
+Measurement availability,Weekly child contact,B,Valid at T1 and T2,2527,2840,89.0,No-children status is kept separate and not recoded as low contact.
+Measurement availability,Weekly child contact,Combined,Valid at T1 and T2,5217,5826,89.5,No-children status is kept separate and not recoded as low contact.
+Measurement availability,Living alone,A,Valid at T1 and T2,2986,2986,100.0,
+Measurement availability,Living alone,B,Valid at T1 and T2,2840,2840,100.0,
+Measurement availability,Living alone,Combined,Valid at T1 and T2,5826,5826,100.0,
+Cognition-ready sample,Weekly relatives/friends contact,A,Valid measure + T2 and T3 cognition,2710,2986,90.8,Used only to assess feasibility; cognition associations were not examined.
+Cognition-ready sample,Weekly relatives/friends contact,B,Valid measure + T2 and T3 cognition,2516,2840,88.6,Used only to assess feasibility; cognition associations were not examined.
+Cognition-ready sample,Weekly relatives/friends contact,Combined,Valid measure + T2 and T3 cognition,5226,5826,89.7,Used only to assess feasibility; cognition associations were not examined.
+Cognition-ready sample,Weekly child contact,A,Valid measure + T2 and T3 cognition,2465,2986,82.6,Used only to assess feasibility; cognition associations were not examined.
+Cognition-ready sample,Weekly child contact,B,Valid measure + T2 and T3 cognition,2254,2840,79.4,Used only to assess feasibility; cognition associations were not examined.
+Cognition-ready sample,Weekly child contact,Combined,Valid measure + T2 and T3 cognition,4719,5826,81.0,Used only to assess feasibility; cognition associations were not examined.
+Cognition-ready sample,Living alone,A,Valid measure + T2 and T3 cognition,2722,2986,91.2,Used only to assess feasibility; cognition associations were not examined.
+Cognition-ready sample,Living alone,B,Valid measure + T2 and T3 cognition,2523,2840,88.8,Used only to assess feasibility; cognition associations were not examined.
+Cognition-ready sample,Living alone,Combined,Valid measure + T2 and T3 cognition,5245,5826,90.0,Used only to assess feasibility; cognition associations were not examined.
+Loneliness change,Loneliness T1→T2,A,Decreased,787,2986,26.4,Change direction based on T2 minus T1 loneliness.
+Loneliness change,Loneliness T1→T2,A,Stable,1376,2986,46.1,Change direction based on T2 minus T1 loneliness.
+Loneliness change,Loneliness T1→T2,A,Increased,823,2986,27.6,Change direction based on T2 minus T1 loneliness.
+Loneliness change,Loneliness T1→T2,B,Decreased,689,2840,24.3,Change direction based on T2 minus T1 loneliness.
+Loneliness change,Loneliness T1→T2,B,Stable,1343,2840,47.3,Change direction based on T2 minus T1 loneliness.
+Loneliness change,Loneliness T1→T2,B,Increased,808,2840,28.5,Change direction based on T2 minus T1 loneliness.
+Loneliness change,Loneliness T1→T2,Combined,Decreased,1476,5826,25.3,Change direction based on T2 minus T1 loneliness.
+Loneliness change,Loneliness T1→T2,Combined,Stable,2719,5826,46.7,Change direction based on T2 minus T1 loneliness.
+Loneliness change,Loneliness T1→T2,Combined,Increased,1631,5826,28.0,Change direction based on T2 minus T1 loneliness.
+Contact trajectories,Weekly relatives/friends contact,A,Weekly→weekly,2073,2973,69.7,
+Contact trajectories,Weekly relatives/friends contact,A,Below weekly→weekly,311,2973,10.5,
+Contact trajectories,Weekly relatives/friends contact,A,Weekly→below weekly,313,2973,10.5,
+Contact trajectories,Weekly relatives/friends contact,A,Below weekly→below weekly,276,2973,9.3,
+Contact trajectories,Weekly relatives/friends contact,B,Weekly→weekly,2023,2831,71.5,
+Contact trajectories,Weekly relatives/friends contact,B,Below weekly→weekly,246,2831,8.7,
+Contact trajectories,Weekly relatives/friends contact,B,Weekly→below weekly,289,2831,10.2,
+Contact trajectories,Weekly relatives/friends contact,B,Below weekly→below weekly,273,2831,9.6,
+Contact trajectories,Weekly relatives/friends contact,Combined,Weekly→weekly,4096,5804,70.6,
+Contact trajectories,Weekly relatives/friends contact,Combined,Below weekly→weekly,557,5804,9.6,
+Contact trajectories,Weekly relatives/friends contact,Combined,Weekly→below weekly,602,5804,10.4,
+Contact trajectories,Weekly relatives/friends contact,Combined,Below weekly→below weekly,549,5804,9.5,
+Contact trajectories,Weekly child contact,A,Weekly→weekly,1993,2690,74.1,
+Contact trajectories,Weekly child contact,A,Below weekly→weekly,202,2690,7.5,
+Contact trajectories,Weekly child contact,A,Weekly→below weekly,242,2690,9.0,
+Contact trajectories,Weekly child contact,A,Below weekly→below weekly,253,2690,9.4,
+Contact trajectories,Weekly child contact,B,Weekly→weekly,1901,2527,75.2,
+Contact trajectories,Weekly child contact,B,Below weekly→weekly,187,2527,7.4,
+Contact trajectories,Weekly child contact,B,Weekly→below weekly,207,2527,8.2,
+Contact trajectories,Weekly child contact,B,Below weekly→below weekly,232,2527,9.2,
+Contact trajectories,Weekly child contact,Combined,Weekly→weekly,3894,5217,74.6,
+Contact trajectories,Weekly child contact,Combined,Below weekly→weekly,389,5217,7.5,
+Contact trajectories,Weekly child contact,Combined,Weekly→below weekly,449,5217,8.6,
+Contact trajectories,Weekly child contact,Combined,Below weekly→below weekly,485,5217,9.3,
+Living arrangement trajectories,Living alone,A,Not alone→not alone,2029,2986,68.0,
+Living arrangement trajectories,Living alone,A,Not alone→living alone,229,2986,7.7,
+Living arrangement trajectories,Living alone,A,Living alone→not alone,91,2986,3.0,
+Living arrangement trajectories,Living alone,A,Living alone→living alone,637,2986,21.3,
+Living arrangement trajectories,Living alone,B,Not alone→not alone,1882,2840,66.3,
+Living arrangement trajectories,Living alone,B,Not alone→living alone,242,2840,8.5,
+Living arrangement trajectories,Living alone,B,Living alone→not alone,112,2840,3.9,
+Living arrangement trajectories,Living alone,B,Living alone→living alone,604,2840,21.3,
+Living arrangement trajectories,Living alone,Combined,Not alone→not alone,3911,5826,67.1,
+Living arrangement trajectories,Living alone,Combined,Not alone→living alone,471,5826,8.1,
+Living arrangement trajectories,Living alone,Combined,Living alone→not alone,203,5826,3.5,
+Living arrangement trajectories,Living alone,Combined,Living alone→living alone,1241,5826,21.3,
+Overlap between contact sources,Child vs relatives/friends contact at T2,Combined,Weekly with both,3651,5314,68.7,Participants with both contact measures valid at T2.
+Overlap between contact sources,Child vs relatives/friends contact at T2,Combined,Weekly child only,697,5314,13.1,Participants with both contact measures valid at T2.
+Overlap between contact sources,Child vs relatives/friends contact at T2,Combined,Weekly relatives/friends only,598,5314,11.3,Participants with both contact measures valid at T2.
+Overlap between contact sources,Child vs relatives/friends contact at T2,Combined,Below weekly for both,368,5314,6.9,Participants with both contact measures valid at T2.
+Overlap of contact change,Contact decreases T1→T2,Combined,Neither decreased,4296,5208,82.5,Participants with both contact measures valid at T1 and T2.
+Overlap of contact change,Contact decreases T1→T2,Combined,Child decreased only,364,5208,7.0,Participants with both contact measures valid at T1 and T2.
+Overlap of contact change,Contact decreases T1→T2,Combined,Relatives/friends decreased only,464,5208,8.9,Participants with both contact measures valid at T1 and T2.
+Overlap of contact change,Contact decreases T1→T2,Combined,Both decreased,84,5208,1.6,Participants with both contact measures valid at T1 and T2.
+Overlap of contact change,Contact increases T1→T2,Combined,Neither increased,4389,5208,84.3,Participants with both contact measures valid at T1 and T2.
+Overlap of contact change,Contact increases T1→T2,Combined,Child increased only,310,5208,6.0,Participants with both contact measures valid at T1 and T2.
+Overlap of contact change,Contact increases T1→T2,Combined,Relatives/friends increased only,430,5208,8.3,Participants with both contact measures valid at T1 and T2.
+Overlap of contact change,Contact increases T1→T2,Combined,Both increased,79,5208,1.5,Participants with both contact measures valid at T1 and T2.

@@ -1,0 +1,37 @@
+﻿measure,cohort,statistic,count,denominator,percent
+Other relatives,A,valid_T1_T2,2890,2986,96.8
+Other relatives,A,valid_T1_T2_plus_Cog_T2_T3,2638,2986,88.3
+Other relatives,A,weekly_to_weekly,1032,2890,35.7
+Other relatives,A,below_to_weekly,475,2890,16.4
+Other relatives,A,weekly_to_below,441,2890,15.3
+Other relatives,A,below_to_below,942,2890,32.6
+Other relatives,B,valid_T1_T2,2746,2840,96.7
+Other relatives,B,valid_T1_T2_plus_Cog_T2_T3,2444,2840,86.1
+Other relatives,B,weekly_to_weekly,1035,2746,37.7
+Other relatives,B,below_to_weekly,404,2746,14.7
+Other relatives,B,weekly_to_below,397,2746,14.5
+Other relatives,B,below_to_below,910,2746,33.1
+Other relatives,Combined,valid_T1_T2,5636,5826,96.7
+Other relatives,Combined,valid_T1_T2_plus_Cog_T2_T3,5082,5826,87.2
+Other relatives,Combined,weekly_to_weekly,2067,5636,36.7
+Other relatives,Combined,below_to_weekly,879,5636,15.6
+Other relatives,Combined,weekly_to_below,838,5636,14.9
+Other relatives,Combined,below_to_below,1852,5636,32.9
+Friends,A,valid_T1_T2,2891,2986,96.8
+Friends,A,valid_T1_T2_plus_Cog_T2_T3,2640,2986,88.4
+Friends,A,weekly_to_weekly,1540,2891,53.3
+Friends,A,below_to_weekly,378,2891,13.1
+Friends,A,weekly_to_below,394,2891,13.6
+Friends,A,below_to_below,579,2891,20.0
+Friends,B,valid_T1_T2,2730,2840,96.1
+Friends,B,valid_T1_T2_plus_Cog_T2_T3,2430,2840,85.6
+Friends,B,weekly_to_weekly,1496,2730,54.8
+Friends,B,below_to_weekly,322,2730,11.8
+Friends,B,weekly_to_below,384,2730,14.1
+Friends,B,below_to_below,528,2730,19.3
+Friends,Combined,valid_T1_T2,5621,5826,96.5
+Friends,Combined,valid_T1_T2_plus_Cog_T2_T3,5070,5826,87.0
+Friends,Combined,weekly_to_weekly,3036,5621,54.0
+Friends,Combined,below_to_weekly,700,5621,12.5
+Friends,Combined,weekly_to_below,778,5621,13.8
+Friends,Combined,below_to_below,1107,5621,19.7
