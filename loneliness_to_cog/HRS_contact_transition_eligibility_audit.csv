@@ -1,0 +1,66 @@
+﻿section,domain,cohort,statistic,count,denominator,percent,notes
+structural_validation,all,Combined,input_rows,8041,8041,100.0,
+structural_validation,all,Combined,output_rows,8041,8041,100.0,
+structural_validation,all,Combined,unique_cohort_hhidpn,8041,8041,100.0,Should equal output row count.
+structural_validation,all,Combined,original_columns_retained,70,70,100.0,
+structural_validation,all,Combined,new_columns_added,6,6,100.0,"friends_contact_transition, eligible_friends_contact_model, other_relatives_contact_transition, eligible_other_relatives_contact_model, children_contact_transition, eligible_children_contact_model"
+structural_validation,all,Combined,all_original_values_unchanged,1,1,100.0,1 means all original cells were retained exactly.
+eligibility,all,A,eligible_basic_analysis,2722,4272,63.7,Existing base flag: valid/self-completed T1/T2 loneliness + Cog T2 + Cog T3.
+eligibility,all,B,eligible_basic_analysis,2523,3769,66.9,Existing base flag: valid/self-completed T1/T2 loneliness + Cog T2 + Cog T3.
+eligibility,all,Combined,eligible_basic_analysis,5245,8041,65.2,Existing base flag: valid/self-completed T1/T2 loneliness + Cog T2 + Cog T3.
+contact_availability,friends,A,valid_contact_T1_T2,3640,4272,85.2,
+transition_distribution,friends,A,maintained_frequent,1958,3640,53.8,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,friends,A,increased_contact,481,3640,13.2,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,friends,A,decreased_contact,484,3640,13.3,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,friends,A,maintained_infrequent,717,3640,19.7,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+eligibility,friends,A,eligible_contact_model,2640,4272,61.8,Requires eligible_basic_analysis=1 and valid T1/T2 contact for this domain.
+contact_availability,friends,B,valid_contact_T1_T2,3317,3769,88.0,
+transition_distribution,friends,B,maintained_frequent,1772,3317,53.4,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,friends,B,increased_contact,409,3317,12.3,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,friends,B,decreased_contact,476,3317,14.4,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,friends,B,maintained_infrequent,660,3317,19.9,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+eligibility,friends,B,eligible_contact_model,2430,3769,64.5,Requires eligible_basic_analysis=1 and valid T1/T2 contact for this domain.
+contact_availability,friends,Combined,valid_contact_T1_T2,6957,8041,86.5,
+transition_distribution,friends,Combined,maintained_frequent,3730,6957,53.6,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,friends,Combined,increased_contact,890,6957,12.8,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,friends,Combined,decreased_contact,960,6957,13.8,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,friends,Combined,maintained_infrequent,1377,6957,19.8,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+eligibility,friends,Combined,eligible_contact_model,5070,8041,63.1,Requires eligible_basic_analysis=1 and valid T1/T2 contact for this domain.
+contact_availability,other_relatives,A,valid_contact_T1_T2,3656,4272,85.6,
+transition_distribution,other_relatives,A,maintained_frequent,1316,3656,36.0,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,other_relatives,A,increased_contact,602,3656,16.5,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,other_relatives,A,decreased_contact,553,3656,15.1,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,other_relatives,A,maintained_infrequent,1185,3656,32.4,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+eligibility,other_relatives,A,eligible_contact_model,2638,4272,61.8,Requires eligible_basic_analysis=1 and valid T1/T2 contact for this domain.
+contact_availability,other_relatives,B,valid_contact_T1_T2,3345,3769,88.8,
+transition_distribution,other_relatives,B,maintained_frequent,1258,3345,37.6,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,other_relatives,B,increased_contact,505,3345,15.1,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,other_relatives,B,decreased_contact,488,3345,14.6,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,other_relatives,B,maintained_infrequent,1094,3345,32.7,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+eligibility,other_relatives,B,eligible_contact_model,2444,3769,64.8,Requires eligible_basic_analysis=1 and valid T1/T2 contact for this domain.
+contact_availability,other_relatives,Combined,valid_contact_T1_T2,7001,8041,87.1,
+transition_distribution,other_relatives,Combined,maintained_frequent,2574,7001,36.8,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,other_relatives,Combined,increased_contact,1107,7001,15.8,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,other_relatives,Combined,decreased_contact,1041,7001,14.9,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,other_relatives,Combined,maintained_infrequent,2279,7001,32.6,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+eligibility,other_relatives,Combined,eligible_contact_model,5082,8041,63.2,Requires eligible_basic_analysis=1 and valid T1/T2 contact for this domain.
+contact_availability,children,A,valid_contact_T1_T2,3401,4272,79.6,
+transition_distribution,children,A,maintained_frequent,2532,3401,74.4,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,children,A,increased_contact,253,3401,7.4,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,children,A,decreased_contact,290,3401,8.5,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,children,A,maintained_infrequent,326,3401,9.6,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+eligibility,children,A,eligible_contact_model,2465,4272,57.7,Requires eligible_basic_analysis=1 and valid T1/T2 contact for this domain.
+contact_availability,children,B,valid_contact_T1_T2,3095,3769,82.1,
+transition_distribution,children,B,maintained_frequent,2323,3095,75.1,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,children,B,increased_contact,230,3095,7.4,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,children,B,decreased_contact,257,3095,8.3,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,children,B,maintained_infrequent,285,3095,9.2,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+eligibility,children,B,eligible_contact_model,2254,3769,59.8,Requires eligible_basic_analysis=1 and valid T1/T2 contact for this domain.
+contact_availability,children,Combined,valid_contact_T1_T2,6496,8041,80.8,
+transition_distribution,children,Combined,maintained_frequent,4855,6496,74.7,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,children,Combined,increased_contact,483,6496,7.4,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,children,Combined,decreased_contact,547,6496,8.4,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+transition_distribution,children,Combined,maintained_infrequent,611,6496,9.4,Transition denominator = participants with valid 0/1 contact at both T1 and T2.
+eligibility,children,Combined,eligible_contact_model,4719,8041,58.7,Requires eligible_basic_analysis=1 and valid T1/T2 contact for this domain.
+child_null_validation,children,Combined,invalid_or_null_child_contact_with_transition,0,8041,0.0,Must be 0. Childless respondents remain in master and receive no transition.
+child_null_validation,children,Combined,invalid_or_null_child_contact_marked_eligible,0,8041,0.0,Must be 0.

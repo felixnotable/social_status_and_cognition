@@ -1,0 +1,74 @@
+﻿section,cohort,timepoint,measure,count,denominator,percent,notes
+rand_cesd_missingness_behavior,All RAND,Wave 8,RwCESD numeric when RwCESDM=0,17055,17055,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 8,RwCESD numeric when RwCESDM=1,120,120,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 8,RwCESD numeric when RwCESDM=2,14,14,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 8,RwCESD numeric when RwCESDM=3,4,4,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 8,RwCESD numeric when RwCESDM=4,1,1,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 8,RwCESD numeric when RwCESDM=5,1,1,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 8,RwCESD numeric when RwCESDM=6,2,2,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 8,RwCESD numeric when RwCESDM=7,1,1,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 8,RwCESD numeric when RwCESDM=8,0,1271,0.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 9,RwCESD numeric when RwCESDM=0,15969,15969,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 9,RwCESD numeric when RwCESDM=1,94,94,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 9,RwCESD numeric when RwCESDM=2,6,6,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 9,RwCESD numeric when RwCESDM=3,3,3,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 9,RwCESD numeric when RwCESDM=4,2,2,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 9,RwCESD numeric when RwCESDM=5,1,1,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 9,RwCESD numeric when RwCESDM=8,0,1142,0.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 10,RwCESD numeric when RwCESDM=0,20442,20442,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 10,RwCESD numeric when RwCESDM=1,172,172,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 10,RwCESD numeric when RwCESDM=2,20,20,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 10,RwCESD numeric when RwCESDM=3,10,10,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 10,RwCESD numeric when RwCESDM=4,2,2,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 10,RwCESD numeric when RwCESDM=5,1,1,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 10,RwCESD numeric when RwCESDM=8,0,1387,0.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 11,RwCESD numeric when RwCESDM=0,19156,19156,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 11,RwCESD numeric when RwCESDM=1,207,207,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 11,RwCESD numeric when RwCESDM=2,26,26,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 11,RwCESD numeric when RwCESDM=3,3,3,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 11,RwCESD numeric when RwCESDM=4,5,5,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 11,RwCESD numeric when RwCESDM=5,3,3,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 11,RwCESD numeric when RwCESDM=8,0,1154,0.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 12,RwCESD numeric when RwCESDM=0,17490,17490,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 12,RwCESD numeric when RwCESDM=1,163,163,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 12,RwCESD numeric when RwCESDM=2,36,36,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 12,RwCESD numeric when RwCESDM=3,4,4,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 12,RwCESD numeric when RwCESDM=6,1,1,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 12,RwCESD numeric when RwCESDM=7,2,2,100.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+rand_cesd_missingness_behavior,All RAND,Wave 12,RwCESD numeric when RwCESDM=8,0,1051,0.0,RAND can retain a numeric CES-D score when some components are missing; RwCESDM records the number missing.
+availability_full_master,A,T1,standard_RAND_CESD8,4092,4272,95.8,Standard 8-item RAND CES-D; includes felt-lonely item.
+availability_full_master,A,T1,CESD7_excluding_loneliness_complete_items,4070,4272,95.3,Preferred project depression measure; requires all 7 non-loneliness components.
+availability_full_master,A,T2,standard_RAND_CESD8,4110,4272,96.2,Standard 8-item RAND CES-D; includes felt-lonely item.
+availability_full_master,A,T2,CESD7_excluding_loneliness_complete_items,4089,4272,95.7,Preferred project depression measure; requires all 7 non-loneliness components.
+availability_full_master,A,T1_and_T2,standard_RAND_CESD8,3980,4272,93.2,
+availability_full_master,A,T1_and_T2,CESD7_excluding_loneliness_complete_items,3941,4272,92.3,Preferred project depression measure.
+availability_valid_self_completed_loneliness_T1_T2,A,T1,standard_RAND_CESD8,2965,2986,99.3,Standard 8-item RAND CES-D; includes felt-lonely item.
+availability_valid_self_completed_loneliness_T1_T2,A,T1,CESD7_excluding_loneliness_complete_items,2950,2986,98.8,Preferred project depression measure; requires all 7 non-loneliness components.
+availability_valid_self_completed_loneliness_T1_T2,A,T2,standard_RAND_CESD8,2925,2986,98.0,Standard 8-item RAND CES-D; includes felt-lonely item.
+availability_valid_self_completed_loneliness_T1_T2,A,T2,CESD7_excluding_loneliness_complete_items,2912,2986,97.5,Preferred project depression measure; requires all 7 non-loneliness components.
+availability_valid_self_completed_loneliness_T1_T2,A,T1_and_T2,standard_RAND_CESD8,2918,2986,97.7,
+availability_valid_self_completed_loneliness_T1_T2,A,T1_and_T2,CESD7_excluding_loneliness_complete_items,2892,2986,96.9,Preferred project depression measure.
+availability_full_master,B,T1,standard_RAND_CESD8,3616,3769,95.9,Standard 8-item RAND CES-D; includes felt-lonely item.
+availability_full_master,B,T1,CESD7_excluding_loneliness_complete_items,3606,3769,95.7,Preferred project depression measure; requires all 7 non-loneliness components.
+availability_full_master,B,T2,standard_RAND_CESD8,3674,3769,97.5,Standard 8-item RAND CES-D; includes felt-lonely item.
+availability_full_master,B,T2,CESD7_excluding_loneliness_complete_items,3638,3769,96.5,Preferred project depression measure; requires all 7 non-loneliness components.
+availability_full_master,B,T1_and_T2,standard_RAND_CESD8,3555,3769,94.3,
+availability_full_master,B,T1_and_T2,CESD7_excluding_loneliness_complete_items,3511,3769,93.2,Preferred project depression measure.
+availability_valid_self_completed_loneliness_T1_T2,B,T1,standard_RAND_CESD8,2804,2840,98.7,Standard 8-item RAND CES-D; includes felt-lonely item.
+availability_valid_self_completed_loneliness_T1_T2,B,T1,CESD7_excluding_loneliness_complete_items,2795,2840,98.4,Preferred project depression measure; requires all 7 non-loneliness components.
+availability_valid_self_completed_loneliness_T1_T2,B,T2,standard_RAND_CESD8,2789,2840,98.2,Standard 8-item RAND CES-D; includes felt-lonely item.
+availability_valid_self_completed_loneliness_T1_T2,B,T2,CESD7_excluding_loneliness_complete_items,2758,2840,97.1,Preferred project depression measure; requires all 7 non-loneliness components.
+availability_valid_self_completed_loneliness_T1_T2,B,T1_and_T2,standard_RAND_CESD8,2772,2840,97.6,
+availability_valid_self_completed_loneliness_T1_T2,B,T1_and_T2,CESD7_excluding_loneliness_complete_items,2733,2840,96.2,Preferred project depression measure.
+cesd7_distribution,A,T1,CESD7_valid_N,4070,4272,95.3,
+cesd7_distribution,A,T1,CESD7_mean,1.07,4070,,Range 0-7; higher = more depressive symptoms.
+cesd7_distribution,A,T1,CESD7_SD,1.586,4070,,
+cesd7_distribution,A,T2,CESD7_valid_N,4089,4272,95.7,
+cesd7_distribution,A,T2,CESD7_mean,1.117,4089,,Range 0-7; higher = more depressive symptoms.
+cesd7_distribution,A,T2,CESD7_SD,1.585,4089,,
+cesd7_distribution,B,T1,CESD7_valid_N,3606,3769,95.7,
+cesd7_distribution,B,T1,CESD7_mean,1.045,3606,,Range 0-7; higher = more depressive symptoms.
+cesd7_distribution,B,T1,CESD7_SD,1.59,3606,,
+cesd7_distribution,B,T2,CESD7_valid_N,3638,3769,96.5,
+cesd7_distribution,B,T2,CESD7_mean,1.123,3638,,Range 0-7; higher = more depressive symptoms.
+cesd7_distribution,B,T2,CESD7_SD,1.616,3638,,

@@ -1,0 +1,55 @@
+﻿contact_domain,cohort,stage_code,stage,remaining_n,excluded_since_previous_stage,percent_of_master,percent_retained_from_previous_stage
+Friends,A,01_master,All participants in master dataset,4272,,100.0,
+Friends,A,02_loneliness,Valid/self-completed loneliness at T1 and T2,2986,1286,69.9,69.9
+Friends,A,03_contact,Plus valid friends contact at T1 and T2,2891,95,67.7,96.8
+Friends,A,04_cog_T2,Plus cognition at T2,2891,0,67.7,100.0
+Friends,A,05_cog_T3,Plus cognition at T3 (contact-model eligible),2640,251,61.8,91.3
+Friends,A,06_core_covariates,Plus complete core covariates (fully adjusted sample),2640,0,61.8,100.0
+Friends,B,01_master,All participants in master dataset,3769,,100.0,
+Friends,B,02_loneliness,Valid/self-completed loneliness at T1 and T2,2840,929,75.4,75.4
+Friends,B,03_contact,Plus valid friends contact at T1 and T2,2730,110,72.4,96.1
+Friends,B,04_cog_T2,Plus cognition at T2,2730,0,72.4,100.0
+Friends,B,05_cog_T3,Plus cognition at T3 (contact-model eligible),2430,300,64.5,89.0
+Friends,B,06_core_covariates,Plus complete core covariates (fully adjusted sample),2428,2,64.4,99.9
+Friends,Combined,01_master,All participants in master dataset,8041,,100.0,
+Friends,Combined,02_loneliness,Valid/self-completed loneliness at T1 and T2,5826,2215,72.5,72.5
+Friends,Combined,03_contact,Plus valid friends contact at T1 and T2,5621,205,69.9,96.5
+Friends,Combined,04_cog_T2,Plus cognition at T2,5621,0,69.9,100.0
+Friends,Combined,05_cog_T3,Plus cognition at T3 (contact-model eligible),5070,551,63.1,90.2
+Friends,Combined,06_core_covariates,Plus complete core covariates (fully adjusted sample),5068,2,63.0,100.0
+Other relatives,A,01_master,All participants in master dataset,4272,,100.0,
+Other relatives,A,02_loneliness,Valid/self-completed loneliness at T1 and T2,2986,1286,69.9,69.9
+Other relatives,A,03_contact,Plus valid other relatives contact at T1 and T2,2890,96,67.6,96.8
+Other relatives,A,04_cog_T2,Plus cognition at T2,2890,0,67.6,100.0
+Other relatives,A,05_cog_T3,Plus cognition at T3 (contact-model eligible),2638,252,61.8,91.3
+Other relatives,A,06_core_covariates,Plus complete core covariates (fully adjusted sample),2638,0,61.8,100.0
+Other relatives,B,01_master,All participants in master dataset,3769,,100.0,
+Other relatives,B,02_loneliness,Valid/self-completed loneliness at T1 and T2,2840,929,75.4,75.4
+Other relatives,B,03_contact,Plus valid other relatives contact at T1 and T2,2746,94,72.9,96.7
+Other relatives,B,04_cog_T2,Plus cognition at T2,2746,0,72.9,100.0
+Other relatives,B,05_cog_T3,Plus cognition at T3 (contact-model eligible),2444,302,64.8,89.0
+Other relatives,B,06_core_covariates,Plus complete core covariates (fully adjusted sample),2442,2,64.8,99.9
+Other relatives,Combined,01_master,All participants in master dataset,8041,,100.0,
+Other relatives,Combined,02_loneliness,Valid/self-completed loneliness at T1 and T2,5826,2215,72.5,72.5
+Other relatives,Combined,03_contact,Plus valid other relatives contact at T1 and T2,5636,190,70.1,96.7
+Other relatives,Combined,04_cog_T2,Plus cognition at T2,5636,0,70.1,100.0
+Other relatives,Combined,05_cog_T3,Plus cognition at T3 (contact-model eligible),5082,554,63.2,90.2
+Other relatives,Combined,06_core_covariates,Plus complete core covariates (fully adjusted sample),5080,2,63.2,100.0
+Children,A,01_master,All participants in master dataset,4272,,100.0,
+Children,A,02_loneliness,Valid/self-completed loneliness at T1 and T2,2986,1286,69.9,69.9
+Children,A,03_contact,Plus valid children contact at T1 and T2,2690,296,63.0,90.1
+Children,A,04_cog_T2,Plus cognition at T2,2690,0,63.0,100.0
+Children,A,05_cog_T3,Plus cognition at T3 (contact-model eligible),2465,225,57.7,91.6
+Children,A,06_core_covariates,Plus complete core covariates (fully adjusted sample),2465,0,57.7,100.0
+Children,B,01_master,All participants in master dataset,3769,,100.0,
+Children,B,02_loneliness,Valid/self-completed loneliness at T1 and T2,2840,929,75.4,75.4
+Children,B,03_contact,Plus valid children contact at T1 and T2,2527,313,67.0,89.0
+Children,B,04_cog_T2,Plus cognition at T2,2527,0,67.0,100.0
+Children,B,05_cog_T3,Plus cognition at T3 (contact-model eligible),2254,273,59.8,89.2
+Children,B,06_core_covariates,Plus complete core covariates (fully adjusted sample),2252,2,59.8,99.9
+Children,Combined,01_master,All participants in master dataset,8041,,100.0,
+Children,Combined,02_loneliness,Valid/self-completed loneliness at T1 and T2,5826,2215,72.5,72.5
+Children,Combined,03_contact,Plus valid children contact at T1 and T2,5217,609,64.9,89.5
+Children,Combined,04_cog_T2,Plus cognition at T2,5217,0,64.9,100.0
+Children,Combined,05_cog_T3,Plus cognition at T3 (contact-model eligible),4719,498,58.7,90.5
+Children,Combined,06_core_covariates,Plus complete core covariates (fully adjusted sample),4717,2,58.7,100.0
