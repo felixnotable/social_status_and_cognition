@@ -1,46 +1,6 @@
 #!/usr/bin/env python3
 """
-Merge six HRS Core Leave-Behind respondent files (2006-2016).
-
-Required input files
---------------------
-H06LB_R.da, H06LB_R.dct
-H08LB_R.da, H08LB_R.dct
-H10LB_R.da, H10LB_R.dct
-H12LB_R.da, H12LB_R.dct
-H14LB_R.da, H14LB_R.dct
-H16LB_R.da, H16LB_R.dct
-
-Main output
------------
-HRS_LB_respondent_type_w8_w13_wide.csv
-
-The main output contains one row per respondent and includes:
-- hhidpn
-- hhidpn_padded
-- hhid
-- pn
-- respondent_type_w8 through respondent_type_w13
-- source and audit fields for each wave
-
-The harmonized respondent_type_wN variables are based on the wave-specific
-"WHO ANSWERED THE QUESTIONS" item. Only source values 1 and 2 are retained.
-All other source values are written as blank.
-
-Wave mapping
-------------
-2006 = wave 8
-2008 = wave 9
-2010 = wave 10
-2012 = wave 11
-2014 = wave 12
-2016 = wave 13
-
-Usage
------
-python merge_hrs_lb_respondent_type.py \
-    --input-dir /path/to/lb_files \
-    --output-dir /path/to/output
+Merge six HRS Core Leave-Behind respondent files.
 """
 
 from __future__ import annotations
@@ -142,9 +102,6 @@ def parse_args() -> argparse.Namespace:
 def resolve_file(folder: Path, stem: str, extension: str) -> Path:
     """
     Resolve an input file case-insensitively.
-
-    This accepts filenames such as:
-    H16LB_R.da, H16LB_R.DA, H16LB_R.dct, or H16LB_R.DCT.
     """
     direct_candidates = [
         folder / f"{stem}{extension.lower()}",
@@ -166,9 +123,9 @@ def resolve_file(folder: Path, stem: str, extension: str) -> Path:
 
 def parse_dct(path: Path) -> dict[str, dict[str, Any]]:
     """
-    Parse fixed-width positions from an HRS Stata dictionary file.
+    Parse positions from an HRS Stata dictionary file.
 
-    Returns a dictionary keyed by uppercase variable name. Positions are
+    Returns a dictionary. The keys are uppercase variable name. Positions are
     converted from Stata's 1-based columns to Python's 0-based string indexes.
     """
     specs: dict[str, dict[str, Any]] = {}
@@ -192,7 +149,7 @@ def parse_dct(path: Path) -> dict[str, dict[str, Any]]:
     return specs
 
 
-def read_fixed_width_field(
+def read_field(
     line: str,
     specs: dict[str, dict[str, Any]],
     variable: str,
@@ -286,8 +243,8 @@ def read_wave(
         for line_number, raw_line in enumerate(source, start=1):
             line = raw_line.rstrip("\r\n")
 
-            hhid = read_fixed_width_field(line, specs, "HHID")
-            pn = read_fixed_width_field(line, specs, "PN")
+            hhid = read_field(line, specs, "HHID")
+            pn = read_field(line, specs, "PN")
 
             try:
                 hhidpn, hhidpn_padded = build_hhidpn(hhid, pn)
@@ -301,22 +258,22 @@ def read_wave(
             identifiers_seen.add(hhidpn_padded)
 
             who_answered_raw = integer_or_blank(
-                read_fixed_width_field(
+                read_field(
                     line, specs, config["who_answered"]
                 )
             )
             lb_rtype_raw = integer_or_blank(
-                read_fixed_width_field(
+                read_field(
                     line, specs, config["lb_rtype"]
                 )
             )
             lb_eligible_raw = integer_or_blank(
-                read_fixed_width_field(
+                read_field(
                     line, specs, config["eligibility"]
                 )
             )
             lb_completion_mode_raw = integer_or_blank(
-                read_fixed_width_field(
+                read_field(
                     line, specs, config["completion_mode"]
                 )
             )
@@ -587,6 +544,7 @@ def main() -> None:
     all_long_rows: list[dict[str, Any]] = []
     wave_audits: dict[str, Any] = {}
 
+    # long table: each respondent has multiple rows, each for a wave. 
     for year, config in CONFIG.items():
         rows, audit = read_wave(year, config, input_dir)
         all_long_rows.extend(rows)
@@ -616,7 +574,7 @@ def main() -> None:
         "lb_record_present",
         "source_who_answered_variable",
     ]
-
+    # wide rows: each respondent has one row, contains required fields from all waves
     wide_headers, wide_rows = build_wide_rows(all_long_rows)
 
     wide_path = output_dir / f"{args.prefix}_wide.csv"
