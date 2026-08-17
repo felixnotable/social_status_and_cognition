@@ -50,9 +50,11 @@ The two groups are expected not to overlap.
 
 Final output
 ------------
-HRS_participant_level_cohorts_with_contact_transitions.csv
+HRS_participant_level_cohorts_current.csv
 
-The output has one row per participant and 76 columns.
+The output has one row per participant and 79 columns. In addition to the
+three domain-specific contact-model eligibility flags, it contains a final
+fully adjusted eligibility flag for each contact domain.
 """
 
 from __future__ import annotations
@@ -187,6 +189,9 @@ FINAL_COLUMNS = [
     "eligible_other_relatives_contact_model",
     "children_contact_transition",
     "eligible_children_contact_model",
+    "eligible_friends_contact_fully_adjusted_model",
+    "eligible_other_relatives_contact_fully_adjusted_model",
+    "eligible_children_contact_fully_adjusted_model",
 ]
 
 
@@ -944,6 +949,16 @@ def build_rows(long, social, members, lb_lookup, lw_lookup, contact_lookup):
                     basic and contact_valid
                 )
 
+                # Final sample for the domain-specific interaction model:
+                # valid loneliness/cognition/contact data plus complete core
+                # demographic and socioeconomic covariates.
+                out[
+                    f"eligible_{domain}_contact_fully_adjusted_model"
+                ] = int(
+                    out[f"eligible_{domain}_contact_model"] == 1
+                    and out["eligible_fully_adjusted_model"] == 1
+                )
+
             rows.append(out)
 
     return pd.DataFrame(rows)
@@ -1022,7 +1037,7 @@ def prepare_sources(source_dir: Path, work_dir: Path):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Rebuild the 76-column HRS participant analysis table."
+        description="Rebuild the 79-column current HRS participant table."
     )
     parser.add_argument(
         "--source-dir",
@@ -1040,7 +1055,7 @@ def main():
         "--output",
         type=Path,
         default=Path(
-            "HRS_participant_level_cohorts_with_contact_transitions.csv"
+            "HRS_participant_level_cohorts_current.csv"
         ),
     )
     args = parser.parse_args()
