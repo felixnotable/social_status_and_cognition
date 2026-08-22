@@ -8,11 +8,6 @@ from matplotlib.backends.backend_pdf import PdfPages
 from matplotlib.patches import Patch
 from matplotlib.lines import Line2D
 
-# This script regenerates all descriptive graphs.
-# Input file expected in the same folder:
-# HRS_participant_level_cohorts_current.csv
-# This script generates all descriptive graphs and one combined PDF
-
 BASE_DIR = Path(__file__).resolve().parent
 DATA_PATH = BASE_DIR / "HRS_participant_level_cohorts_current.csv"
 OUT_DIR = BASE_DIR / "hrs_descriptive_graphs"
