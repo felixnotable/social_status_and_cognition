@@ -1,0 +1,53 @@
+check,status,observed,expected
+input SHA-256,PASS,d6f53a78d2f8140b6589a036c5b2abb11499b678eeef38a48cf3c30017685828,d6f53a78d2f8140b6589a036c5b2abb11499b678eeef38a48cf3c30017685828
+master row count,PASS,8041,8041
+master column count,PASS,79,79
+unique respondent IDs,PASS,8041,8041
+master cohort counts,PASS,"{'A': 4272, 'B': 3769}","{'A': 4272, 'B': 3769}"
+friends: stored eligibility equals reconstructed rule,PASS,0,0
+friends: analytical N,PASS,5068,5068
+friends: cohort counts,PASS,"{'A': 2640, 'B': 2428}","{'A': 2640, 'B': 2428}"
+friends: transition counts,PASS,"{'maintained_frequent': 2785, 'maintained_infrequent': 970, 'decreased_contact': 691, 'increased_contact': 622}","{'maintained_frequent': 2785, 'increased_contact': 622, 'decreased_contact': 691, 'maintained_infrequent': 970}"
+friends: reconstructed loneliness T1,PASS,6.666666663157628e-08,<= 1e-6
+friends: reconstructed loneliness T2,PASS,6.666666663157628e-08,<= 1e-6
+friends: reconstructed loneliness change,PASS,1.3333333348519716e-07,<= 1e-6
+friends: transition reconstruction,PASS,0,0
+friends: Model 3 F reproduces locked result,PASS,1.6056348557999316,1.6056348558
+friends: Model 3 p reproduces locked result,PASS,0.18584926583719524,0.185849265837
+friends: HC3 covariance positive semidefinite,PASS,1.1851099732820115e-08,>= -1e-10
+other_relatives: stored eligibility equals reconstructed rule,PASS,0,0
+other_relatives: analytical N,PASS,5080,5080
+other_relatives: cohort counts,PASS,"{'A': 2638, 'B': 2442}","{'A': 2638, 'B': 2442}"
+other_relatives: transition counts,PASS,"{'maintained_frequent': 1873, 'maintained_infrequent': 1670, 'increased_contact': 794, 'decreased_contact': 743}","{'maintained_frequent': 1873, 'increased_contact': 794, 'decreased_contact': 743, 'maintained_infrequent': 1670}"
+other_relatives: reconstructed loneliness T1,PASS,6.666666663157628e-08,<= 1e-6
+other_relatives: reconstructed loneliness T2,PASS,6.666666663157628e-08,<= 1e-6
+other_relatives: reconstructed loneliness change,PASS,1.3333333348519716e-07,<= 1e-6
+other_relatives: transition reconstruction,PASS,0,0
+other_relatives: Model 3 F reproduces locked result,PASS,0.4139238720758309,0.413923872076
+other_relatives: Model 3 p reproduces locked result,PASS,0.7430112513562788,0.743011251356
+other_relatives: HC3 covariance positive semidefinite,PASS,1.1799535371262962e-08,>= -1e-10
+children: stored eligibility equals reconstructed rule,PASS,0,0
+children: analytical N,PASS,4717,4717
+children: cohort counts,PASS,"{'A': 2465, 'B': 2252}","{'A': 2465, 'B': 2252}"
+children: transition counts,PASS,"{'maintained_frequent': 3536, 'maintained_infrequent': 440, 'decreased_contact': 399, 'increased_contact': 342}","{'maintained_frequent': 3536, 'increased_contact': 342, 'decreased_contact': 399, 'maintained_infrequent': 440}"
+children: reconstructed loneliness T1,PASS,6.666666663157628e-08,<= 1e-6
+children: reconstructed loneliness T2,PASS,6.666666663157628e-08,<= 1e-6
+children: reconstructed loneliness change,PASS,1.3333333348519716e-07,<= 1e-6
+children: transition reconstruction,PASS,0,0
+children: Model 3 F reproduces locked result,PASS,2.1094200572931414,2.10942005729
+children: Model 3 p reproduces locked result,PASS,0.09683941321330926,0.0968394132133
+children: HC3 covariance positive semidefinite,PASS,1.3366583254837926e-08,>= -1e-10
+overall: stored eligibility equals reconstructed rule,PASS,0,0
+overall: analytical N,PASS,5243,5243
+overall: cohort counts,PASS,"{'A': 2722, 'B': 2521}","{'A': 2722, 'B': 2521}"
+overall: reconstructed loneliness T1,PASS,6.666666663157628e-08,<= 1e-6
+overall: reconstructed loneliness T2,PASS,6.666666663157628e-08,<= 1e-6
+overall: reconstructed loneliness change,PASS,1.3333333348519716e-07,<= 1e-6
+overall: Model 1 HC3 covariance positive semidefinite,PASS,4.586461541481345e-07,>= -1e-10
+overall: Model 2 HC3 covariance positive semidefinite,PASS,1.2234421210935539e-08,>= -1e-10
+overall: Model 3 HC3 covariance positive semidefinite,PASS,1.168228768548013e-08,>= -1e-10
+overall: Models 1-3 use the same analytical sample,PASS,[5243],[5243]
+overall: formal cohort-comparison N,PASS,5243,5243
+overall: formal cohort-comparison HC3 covariance positive semidefinite,PASS,1.1663333831517825e-08,>= -1e-10
+overall: Cohort A Model 3 HC3 covariance positive semidefinite,PASS,2.332741298004538e-08,>= -1e-10
+overall: Cohort B Model 3 HC3 covariance positive semidefinite,PASS,2.320841840920084e-08,>= -1e-10

@@ -1,0 +1,24 @@
+section,characteristic,Combined,Cohort A,Cohort B
+Sample,N,"4,717","2,465","2,252"
+Continuous: mean (SD),"Age at T2, years",76.97 (5.82),76.99 (5.92),76.95 (5.71)
+Continuous: mean (SD),"Education, years",12.69 (2.88),12.73 (2.84),12.65 (2.92)
+Continuous: mean (SD),Loneliness at T1,1.40 (0.50),1.40 (0.50),1.40 (0.50)
+Continuous: mean (SD),Loneliness at T2,1.42 (0.50),1.42 (0.50),1.42 (0.50)
+Continuous: mean (SD),Change in loneliness (T2 − T1),0.02 (0.47),0.01 (0.48),0.02 (0.47)
+Continuous: mean (SD),Cognition at T2,1.46 (0.71),1.46 (0.72),1.46 (0.70)
+Continuous: mean (SD),Cognition at T3,1.30 (0.79),1.31 (0.80),1.30 (0.78)
+Continuous: median [IQR],"Wealth at T2, dollars","$203,800 [$72,500, $478,800]","$213,225 [$77,000, $485,500]","$188,500 [$68,875, $465,462]"
+Categorical: n (%),Sex: Female,"2,743 (58.2%)","1,401 (56.8%)","1,342 (59.6%)"
+Categorical: n (%),Sex: Male,"1,974 (41.8%)","1,064 (43.2%)",910 (40.4%)
+Categorical: n (%),"Race/ethnicity: White, non-Hispanic","3,935 (83.4%)","2,074 (84.1%)","1,861 (82.6%)"
+Categorical: n (%),"Race/ethnicity: Black/African American, non-Hispanic",437 (9.3%),226 (9.2%),211 (9.4%)
+Categorical: n (%),Race/ethnicity: Hispanic,278 (5.9%),129 (5.2%),149 (6.6%)
+Categorical: n (%),"Race/ethnicity: Other, non-Hispanic",67 (1.4%),36 (1.5%),31 (1.4%)
+Categorical: n (%),Marital status at T2: Married/partnered,"2,890 (61.3%)","1,528 (62.0%)","1,362 (60.5%)"
+Categorical: n (%),Marital status at T2: Separated/divorced,430 (9.1%),203 (8.2%),227 (10.1%)
+Categorical: n (%),Marital status at T2: Widowed,"1,370 (29.0%)",719 (29.2%),651 (28.9%)
+Categorical: n (%),Marital status at T2: Never married,27 (0.6%),15 (0.6%),12 (0.5%)
+Categorical: n (%),Children contact transition: Maintained frequent,"3,536 (75.0%)","1,836 (74.5%)","1,700 (75.5%)"
+Categorical: n (%),Children contact transition: Increased contact,342 (7.3%),180 (7.3%),162 (7.2%)
+Categorical: n (%),Children contact transition: Decreased contact,399 (8.5%),216 (8.8%),183 (8.1%)
+Categorical: n (%),Children contact transition: Maintained infrequent,440 (9.3%),233 (9.5%),207 (9.2%)

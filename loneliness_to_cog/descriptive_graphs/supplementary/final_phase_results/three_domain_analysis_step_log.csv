@@ -1,0 +1,13 @@
+step,action,status,outcome
+1,Validate Methods and frozen input,PASS,Primary formula matched; sensitivity and reporting gaps identified; input hash and dimensions passed.
+2,Reconstruct domain samples,PASS,"Stored eligibility flags, sample counts, cohort counts, transition counts, loneliness scores, and transition coding passed."
+3,Fit pooled Models 1-3,PASS,All nine primary models were full rank and used HC3 covariance on fixed domain-specific complete-case samples.
+4,Test primary interactions,PASS,Three-df HC3 robust Wald F tests were computed for each model and domain.
+5,Apply primary multiplicity adjustment,PASS,BH FDR adjustment was applied across exactly the three pooled Model 3 domain omnibus tests.
+6,Run categorical-change sensitivity,PASS,Three fully adjusted Model 3 sensitivity models and six-df interaction tests were completed.
+7,Run cohort-specific sensitivity,PASS,Six cohort-specific fully adjusted Model 3 analyses were completed without cohort indicators.
+8,Run pooled overall loneliness-change models,PASS,"Contact-independent Models 1-3 were completed on the same 5,243-person fully adjusted sample with HC3 inference."
+9,Run overall cohort checks,PASS,The fully adjusted contact-independent model was repeated in Cohorts A and B with the cohort indicator omitted.
+10,Compare overall cohort coefficients,PASS,A pooled fully adjusted loneliness-change-by-cohort interaction formally tested the Cohort B-minus-A slope difference using HC3 inference.
+11,Generate figures and diagnostics,PASS,"Common-scale interaction figures, HC3 confidence bands, residual diagnostics, influence summaries, and VIFs were saved."
+12,Write paper-ready text,PASS,Results and Discussion were generated in the professor-specified hierarchy directly from numeric outputs.

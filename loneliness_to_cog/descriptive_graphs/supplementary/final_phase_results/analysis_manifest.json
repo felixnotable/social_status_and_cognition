@@ -1,0 +1,190 @@
+{
+  "input": {
+    "path": "C:\\Users\\felix\\Downloads\\supplementary\\HRS_participant_level_cohorts_current.csv",
+    "sha256": "d6f53a78d2f8140b6589a036c5b2abb11499b678eeef38a48cf3c30017685828",
+    "rows": 8041,
+    "columns": 79
+  },
+  "script": {
+    "path": "C:\\Users\\felix\\Downloads\\supplementary\\run_final_phase_analysis.py",
+    "sha256": "193ead083feb8b65d3e6ea020a94b55ac8bdf63ef3b1781e1287319d03133e89"
+  },
+  "outputs": [
+    {
+      "filename": "categorical_change_sensitivity_adjusted_predictions.csv",
+      "sha256": "ab1ca484c87268bd298ce6a8f12d3f3d5df9ff4b329bc3bac262f01f89f6dd3c",
+      "size_bytes": 4973
+    },
+    {
+      "filename": "categorical_change_sensitivity_coefficients.csv",
+      "sha256": "2b96ab65bcc61f7a3d5d654dffaa5f6aca0de29e374d374d742962dd3bf012a4",
+      "size_bytes": 15395
+    },
+    {
+      "filename": "categorical_change_sensitivity_omnibus.csv",
+      "sha256": "171b372e12b35b146c071500086f14512bba55d84347680f279a4ec023bf5c13",
+      "size_bytes": 1025
+    },
+    {
+      "filename": "categorical_change_sensitivity_simple_effects.csv",
+      "sha256": "3c85705a049764d9c89f254e8934298c4487db314c364de49c654a2c406460ef",
+      "size_bytes": 7962
+    },
+    {
+      "filename": "children_interaction_figure_methods_aligned.pdf",
+      "sha256": "f941416189213708e4991bb0caf6e08291124daa513bfa1ca8ad1c23f4a20333",
+      "size_bytes": 27923
+    },
+    {
+      "filename": "children_interaction_figure_methods_aligned.png",
+      "sha256": "27e20af84f0d1a70baec697d02533ced6d61cb930464b1ae8b7b306455c69099",
+      "size_bytes": 254414
+    },
+    {
+      "filename": "cohort_specific_sensitivity_coefficients.csv",
+      "sha256": "a15ddf1ed35d238ff0914d87b9aed7922d0b01e5f39301766af24a16c02fa41d",
+      "size_bytes": 23949
+    },
+    {
+      "filename": "cohort_specific_sensitivity_group_slopes.csv",
+      "sha256": "903d88941ba94a0d6a918a44e952426c122980a2a5caf1d60db9a031454f048c",
+      "size_bytes": 5339
+    },
+    {
+      "filename": "cohort_specific_sensitivity_omnibus.csv",
+      "sha256": "8eb899c75c485af2061b4d2d03ca745b9bff4e5d78a52936547c8da39426a488",
+      "size_bytes": 809
+    },
+    {
+      "filename": "contact_transition_summary.csv",
+      "sha256": "637641e9a7a8c3cc470b5498e61368e59493cd18fb23b64101ab2f2f39597c30",
+      "size_bytes": 1084
+    },
+    {
+      "filename": "final_results_discussion.md",
+      "sha256": "4376ea9b587a5d2c97fa10564fc7a9257779ae2769a4fbc74eb57f0bf99bf05b",
+      "size_bytes": 10577
+    },
+    {
+      "filename": "friends_interaction_figure_methods_aligned.pdf",
+      "sha256": "6764bc6cfd30c9d5420425b8994e63a76100079f743b93d960b220bf9ede306f",
+      "size_bytes": 27297
+    },
+    {
+      "filename": "friends_interaction_figure_methods_aligned.png",
+      "sha256": "30f3f38f145669390456dcdca34c5c21621c82069a8cc107d984477f23437ce2",
+      "size_bytes": 241822
+    },
+    {
+      "filename": "other_relatives_interaction_figure_methods_aligned.pdf",
+      "sha256": "a5dc8983bd3e821d2d758b3f3626913eda22b8e251d2765198e3e75aba3f6bcd",
+      "size_bytes": 28009
+    },
+    {
+      "filename": "other_relatives_interaction_figure_methods_aligned.png",
+      "sha256": "3e5cac798baeff4a2ff7ef000b3dfa467e21c55d37b84ea19195f57e615709fc",
+      "size_bytes": 251112
+    },
+    {
+      "filename": "overall_loneliness_change_coefficients.csv",
+      "sha256": "26811601653bbc944d393604c531871cad21dae745ea8df7ef0b16a122690bd8",
+      "size_bytes": 13994
+    },
+    {
+      "filename": "overall_loneliness_change_cohort_comparison.csv",
+      "sha256": "d4312ad65ee11a2212d6093f749c5f8919edf90dd36bc22176215eae62de1e5f",
+      "size_bytes": 1074
+    },
+    {
+      "filename": "overall_loneliness_change_key_effects.csv",
+      "sha256": "5619b66fe8518ba403d604db4dfe1f4058e314fee9757a28813deb58040b1d98",
+      "size_bytes": 1471
+    },
+    {
+      "filename": "overall_loneliness_change_magnitude_context.csv",
+      "sha256": "fd6820ec321bc80a4fa47d1f91f262a6485a43f36181ffae9d09b90944aed91a",
+      "size_bytes": 464
+    },
+    {
+      "filename": "overall_loneliness_change_model_fit.csv",
+      "sha256": "637cb0d360bb00ff425c791c2e3d221da9126d64f40ca8d17bd8957730bfc451",
+      "size_bytes": 807
+    },
+    {
+      "filename": "three_domain_adjusted_predictions.csv",
+      "sha256": "734bf798bb25616469fc7ba9f472fd45057e6fb9f00ef24737718b4b0ee483c3",
+      "size_bytes": 63872
+    },
+    {
+      "filename": "three_domain_analysis_step_log.csv",
+      "sha256": "16792f4ab0b32a6ba7ef66d38785d4fc9eef2c3bd81fc6640ef628db467bdcf5",
+      "size_bytes": 1789
+    },
+    {
+      "filename": "three_domain_assumptions_log.csv",
+      "sha256": "6dd05eb666f41f2ca606a64441e9db8aab266cc18398741973e847716b4846bf",
+      "size_bytes": 1976
+    },
+    {
+      "filename": "three_domain_interaction_figure.pdf",
+      "sha256": "c0578824f89c1516d14bf1d05286bcbe0b4a98db8a2b55da9c5c1e43fe982cc1",
+      "size_bytes": 36729
+    },
+    {
+      "filename": "three_domain_interaction_figure.png",
+      "sha256": "03dfc168621b5885b03458b74288efbc2cca6189bf270d53d0a1ee695f10a4a2",
+      "size_bytes": 376170
+    },
+    {
+      "filename": "three_domain_key_results.json",
+      "sha256": "a31b40dcc9f1bef171739745cadc9467acc278d9e0318b5ffe42dce4c6928030",
+      "size_bytes": 15142
+    },
+    {
+      "filename": "three_domain_methods_results_text.md",
+      "sha256": "4376ea9b587a5d2c97fa10564fc7a9257779ae2769a4fbc74eb57f0bf99bf05b",
+      "size_bytes": 10577
+    },
+    {
+      "filename": "three_domain_model3_diagnostic_summary.csv",
+      "sha256": "41338409fd653f66d6570fec6a79624e35a3d9d3a402a33b8a925f84b448de28",
+      "size_bytes": 1088
+    },
+    {
+      "filename": "three_domain_model3_group_slopes.csv",
+      "sha256": "dc70d15ebb25f6788820702c1ef11cdcda9df248d23a9c09b145462b10dd7fb4",
+      "size_bytes": 2736
+    },
+    {
+      "filename": "three_domain_model3_omnibus_bh.csv",
+      "sha256": "c3f56641632023b39a4a62e1a3f1a3bf0756ce5438a211f1e90c228d300dbbe9",
+      "size_bytes": 738
+    },
+    {
+      "filename": "three_domain_model3_vif.csv",
+      "sha256": "66dcf3c8fa34f4dcbd934ea23ede0260e7168b562955093837902c0e2559a9e9",
+      "size_bytes": 5469
+    },
+    {
+      "filename": "three_domain_primary_coefficients.csv",
+      "sha256": "9d9893918d206699d57017527482822c81d400887bcde82292e0dad821f18103",
+      "size_bytes": 25490
+    },
+    {
+      "filename": "three_domain_primary_model_fit.csv",
+      "sha256": "f2e56d513d47108b92f2c336dc60ef437bb563f8b0ca489fe36bc8bc85b87f51",
+      "size_bytes": 1028
+    },
+    {
+      "filename": "three_domain_primary_omnibus_all_models.csv",
+      "sha256": "1e650de434ea12aa51f3f3e7c3ce90a58123d64c4394594124a92fbcae103cd2",
+      "size_bytes": 1053
+    },
+    {
+      "filename": "three_domain_validation_checks.csv",
+      "sha256": "ebfd72f0059394567b23f8d7f7b604405a8420e958d587c609862e9aa151570c",
+      "size_bytes": 4472
+    }
+  ],
+  "deterministic": true
+}

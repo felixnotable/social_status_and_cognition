@@ -1,0 +1,37 @@
+domain,domain_label,contact_group,contact_group_label,change_category,observed_cell_n,adjusted_prediction,hc3_standard_error,ci_95_low,ci_95_high
+friends,Friends,maintained_frequent,Maintained frequent,decreasing,635,1.30727598805,0.00545379150651,1.296584187,1.31796778909
+friends,Friends,maintained_frequent,Maintained frequent,stable,1406,1.31011748629,0.00309595308346,1.30404807304,1.31618689954
+friends,Friends,maintained_frequent,Maintained frequent,increasing,744,1.31216914131,0.00450317775188,1.30334095627,1.32099732635
+friends,Friends,increased_contact,Increased contact,decreasing,184,1.31781891827,0.00892489529065,1.30032224559,1.33531559094
+friends,Friends,increased_contact,Increased contact,stable,280,1.31561290271,0.0062958772265,1.30327024776,1.32795555766
+friends,Friends,increased_contact,Increased contact,increasing,158,1.30645545593,0.0104892783888,1.28589191265,1.3270189992
+friends,Friends,decreased_contact,Decreased contact,decreasing,155,1.31667824932,0.00928384250738,1.29847788414,1.3348786145
+friends,Friends,decreased_contact,Decreased contact,stable,331,1.29370702865,0.00684881985627,1.28028036589,1.30713369141
+friends,Friends,decreased_contact,Decreased contact,increasing,205,1.29272949137,0.00995526038648,1.27321285541,1.31224612733
+friends,Friends,maintained_infrequent,Maintained infrequent,decreasing,292,1.32109547784,0.00744041700072,1.30650902763,1.33568192805
+friends,Friends,maintained_infrequent,Maintained infrequent,stable,404,1.29699263169,0.00632212108762,1.28459852737,1.30938673601
+friends,Friends,maintained_infrequent,Maintained infrequent,increasing,274,1.30157819748,0.00810919270749,1.28568065629,1.31747573866
+other_relatives,Other relatives,maintained_frequent,Maintained frequent,decreasing,450,1.29766616859,0.0068680153016,1.28420188209,1.31113045509
+other_relatives,Other relatives,maintained_frequent,Maintained frequent,stable,926,1.30863772345,0.00387883222086,1.30103353126,1.31624191564
+other_relatives,Other relatives,maintained_frequent,Maintained frequent,increasing,497,1.30443546625,0.00608404649551,1.29250809837,1.31636283413
+other_relatives,Other relatives,increased_contact,Increased contact,decreasing,198,1.32325919429,0.00783058159604,1.30790786069,1.33861052789
+other_relatives,Other relatives,increased_contact,Increased contact,stable,369,1.29780913884,0.0060146322956,1.28601785288,1.30960042481
+other_relatives,Other relatives,increased_contact,Increased contact,increasing,227,1.30478454929,0.00944854787991,1.28626130057,1.32330779801
+other_relatives,Other relatives,decreased_contact,Decreased contact,decreasing,174,1.31046318248,0.00978749257533,1.29127545526,1.3296509097
+other_relatives,Other relatives,decreased_contact,Decreased contact,stable,348,1.30475604481,0.00674515962324,1.29153260869,1.31797948094
+other_relatives,Other relatives,decreased_contact,Decreased contact,increasing,221,1.28791071415,0.00908118774429,1.27010765051,1.3057137778
+other_relatives,Other relatives,maintained_infrequent,Maintained infrequent,decreasing,441,1.31432440157,0.00600202299219,1.3025578353,1.32609096783
+other_relatives,Other relatives,maintained_infrequent,Maintained infrequent,stable,777,1.29755847959,0.00398434827744,1.2897474302,1.30536952898
+other_relatives,Other relatives,maintained_infrequent,Maintained infrequent,increasing,452,1.30253978704,0.00510145494042,1.29253872446,1.31254084963
+children,Children,maintained_frequent,Maintained frequent,decreasing,852,1.30559916214,0.00467675851951,1.29643051871,1.31476780556
+children,Children,maintained_frequent,Maintained frequent,stable,1725,1.30231350743,0.00295694546456,1.2965165054,1.30811050945
+children,Children,maintained_frequent,Maintained frequent,increasing,959,1.29773961617,0.00421623215351,1.28947382073,1.3060054116
+children,Children,increased_contact,Increased contact,decreasing,92,1.31704616901,0.0145912353515,1.28844049404,1.34565184398
+children,Children,increased_contact,Increased contact,stable,146,1.3079268813,0.00860372839518,1.29105953237,1.32479423023
+children,Children,increased_contact,Increased contact,increasing,104,1.32032260051,0.0154934207294,1.28994821843,1.35069698258
+children,Children,decreased_contact,Decreased contact,decreasing,108,1.30117567306,0.0144259265271,1.27289408104,1.32945726508
+children,Children,decreased_contact,Decreased contact,stable,166,1.28739487391,0.0104838115571,1.26684167889,1.30794806893
+children,Children,decreased_contact,Decreased contact,increasing,125,1.31948817514,0.0106322235289,1.29864402294,1.34033232734
+children,Children,maintained_infrequent,Maintained infrequent,decreasing,119,1.31613687366,0.0109307013039,1.29470756482,1.33756618249
+children,Children,maintained_infrequent,Maintained infrequent,stable,205,1.30291571723,0.00745725537837,1.28829599393,1.31753544053
+children,Children,maintained_infrequent,Maintained infrequent,increasing,116,1.30080611235,0.0109091420871,1.2794190697,1.32219315499

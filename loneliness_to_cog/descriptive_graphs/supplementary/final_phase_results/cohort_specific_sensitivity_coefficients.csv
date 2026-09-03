@@ -1,0 +1,121 @@
+term,term_label,estimate,hc3_standard_error,ci_95_low,ci_95_high,t_value,df,p_value,domain,domain_label,cohort,model
+Intercept,Intercept,-0.227672693217,0.0172818466737,-0.261560145189,-0.193785241245,-13.1740951946,2620,2.00448301236e-38,friends,Friends,A,Cohort-specific Model 3
+cog_T2,Cognition at T2,1.07496609911,0.00443927453591,1.06626125955,1.08367093868,242.149047196,2620,0,friends,Friends,A,Cohort-specific Model 3
+ucla3_T1,Loneliness at T1,-0.00076620940734,0.00592997746792,-0.0123941233932,0.0108617045786,-0.129209497251,2620,0.897201799341,friends,Friends,A,Cohort-specific Model 3
+delta_loneliness,Change in loneliness,0.00407629206341,0.00940785902014,-0.0143712949754,0.0225238791022,0.433285836308,2620,0.664842794882,friends,Friends,A,Cohort-specific Model 3
+contact_increased,Increased contact vs maintained frequent,-0.000999854709798,0.0069019296599,-0.0145336404377,0.0125339310181,-0.144865966341,2620,0.88482784046,friends,Friends,A,Cohort-specific Model 3
+contact_decreased,Decreased contact vs maintained frequent,-0.0183600002876,0.00743318049327,-0.0329354997537,-0.00378450082159,-2.47000598254,2620,0.013574344924,friends,Friends,A,Cohort-specific Model 3
+contact_maintained_infrequent,Maintained infrequent vs maintained frequent,-0.0015783245264,0.00683365904491,-0.0149782404642,0.0118215914114,-0.230963312045,2620,0.817361338006,friends,Friends,A,Cohort-specific Model 3
+delta_x_increased,Loneliness change x increased contact,-0.0183798886539,0.0132477121515,-0.044356927899,0.00759715059128,-1.38740096733,2620,0.165437525803,friends,Friends,A,Cohort-specific Model 3
+delta_x_decreased,Loneliness change x decreased contact,-0.0142832022753,0.0178542907624,-0.0492931425976,0.0207267380471,-0.799987099197,2620,0.423790798011,friends,Friends,A,Cohort-specific Model 3
+delta_x_maintained_infrequent,Loneliness change x maintained infrequent,-0.0125810134556,0.0173543094455,-0.0466105554915,0.0214485285803,-0.724950393166,2620,0.468547201954,friends,Friends,A,Cohort-specific Model 3
+age_T2_centered,Age at T2 (per year; centered at 75),-0.00938917280102,0.000461073579801,-0.010293278079,-0.00848506752303,-20.3637189645,2620,1.07275280586e-85,friends,Friends,A,Cohort-specific Model 3
+male,Male vs Female,0.012451218529,0.00502313681664,0.00260150102852,0.0223009360295,2.47877352012,2620,0.0132460071665,friends,Friends,A,Cohort-specific Model 3
+education,Education (years),-0.0019635634082,0.000965723822361,-0.00385722212804,-6.99046883706e-05,-2.0332556397,2620,0.0421273063592,friends,Friends,A,Cohort-specific Model 3
+race_black,Black/African American non-Hispanic vs White non-Hispanic,0.00954350313642,0.0088848332895,-0.00787849852012,0.026965504793,1.07413418186,2620,0.282861459883,friends,Friends,A,Cohort-specific Model 3
+race_hispanic,Hispanic vs White non-Hispanic,0.0169216817238,0.0120699457448,-0.00674591089256,0.0405892743401,1.40196833371,2620,0.161043162834,friends,Friends,A,Cohort-specific Model 3
+race_other,Other non-Hispanic vs White non-Hispanic,0.0509914009123,0.0231068553748,0.00568186504367,0.0963009367809,2.20676505241,2620,0.0274169094353,friends,Friends,A,Cohort-specific Model 3
+wealth_ihs_T2,"IHS wealth at T2 (wealth/$100,000)",-0.0015612995672,0.00236010391545,-0.0061891561611,0.0030665570267,-0.661538484377,2620,0.508325215845,friends,Friends,A,Cohort-specific Model 3
+marital_separated_divorced,Separated/divorced vs married/partnered,0.00867217312489,0.00887568766696,-0.00873189515621,0.026076241406,0.977070560648,2620,0.32862442668,friends,Friends,A,Cohort-specific Model 3
+marital_widowed,Widowed vs married/partnered,0.0145105632521,0.00597668823838,0.00279105552505,0.0262300709791,2.42786015822,2620,0.0152551357037,friends,Friends,A,Cohort-specific Model 3
+marital_never_married,Never married vs married/partnered,0.0266902194956,0.0103890309352,0.00631868203788,0.0470617569533,2.56907691026,2620,0.0102518663899,friends,Friends,A,Cohort-specific Model 3
+Intercept,Intercept,-0.239235735277,0.01872491601,-0.275954352473,-0.202517118082,-12.7763315547,2408,3.24262483432e-36,friends,Friends,B,Cohort-specific Model 3
+cog_T2,Cognition at T2,1.07773172086,0.004961981409,1.06800152523,1.08746191649,217.197855458,2408,0,friends,Friends,B,Cohort-specific Model 3
+ucla3_T1,Loneliness at T1,-0.00245393074978,0.00693690121664,-0.0160568446514,0.0111489831518,-0.353750280297,2408,0.7235570067,friends,Friends,B,Cohort-specific Model 3
+delta_loneliness,Change in loneliness,-0.00331779341352,0.00906450771537,-0.0210928365,0.014457249673,-0.366020253686,2408,0.714382114894,friends,Friends,B,Cohort-specific Model 3
+contact_increased,Increased contact vs maintained frequent,0.00932240430634,0.00800630193895,-0.00637755055022,0.0250223591629,1.16438330423,2408,0.244384056341,friends,Friends,B,Cohort-specific Model 3
+contact_decreased,Decreased contact vs maintained frequent,-0.00188423216831,0.00775437599653,-0.0170901729403,0.0133217086037,-0.242989528642,2408,0.808034205037,friends,Friends,B,Cohort-specific Model 3
+contact_maintained_infrequent,Maintained infrequent vs maintained frequent,-0.00640236735728,0.00680417740379,-0.0197450165466,0.00694028183209,-0.940946565225,2408,0.346826624482,friends,Friends,B,Cohort-specific Model 3
+delta_x_increased,Loneliness change x increased contact,-0.00546219095129,0.0148700943965,-0.0346216971151,0.0236973152125,-0.367327254666,2408,0.713407205666,friends,Friends,B,Cohort-specific Model 3
+delta_x_decreased,Loneliness change x decreased contact,-0.0305903994811,0.0200148921431,-0.0698385949028,0.0086577959406,-1.52838192994,2408,0.126549078596,friends,Friends,B,Cohort-specific Model 3
+delta_x_maintained_infrequent,Loneliness change x maintained infrequent,-0.0239514903316,0.0141860283778,-0.0517695774865,0.00386659682321,-1.68838590293,2408,0.0914666568918,friends,Friends,B,Cohort-specific Model 3
+age_T2_centered,Age at T2 (per year; centered at 75),-0.00995214539492,0.000444117230847,-0.0108230369162,-0.00908125387366,-22.4088252013,2408,3.55681293762e-101,friends,Friends,B,Cohort-specific Model 3
+male,Male vs Female,0.0295505906778,0.00527942336705,0.0191979073586,0.0399032739969,5.59731406695,2408,2.42383565884e-08,friends,Friends,B,Cohort-specific Model 3
+education,Education (years),-0.00267331155477,0.00099908218039,-0.0046324613907,-0.000714161718836,-2.67576742659,2408,0.00750633493925,friends,Friends,B,Cohort-specific Model 3
+race_black,Black/African American non-Hispanic vs White non-Hispanic,0.0206663527756,0.00797414409834,0.00502945782479,0.0363032477264,2.59167034364,2408,0.00960883488596,friends,Friends,B,Cohort-specific Model 3
+race_hispanic,Hispanic vs White non-Hispanic,0.0120280592834,0.0098617272294,-0.00731029111726,0.0313664096842,1.21967065238,2408,0.222709196748,friends,Friends,B,Cohort-specific Model 3
+race_other,Other non-Hispanic vs White non-Hispanic,0.0183978905169,0.0131917444422,-0.00747045591833,0.0442662369522,1.39465182922,2408,0.16324949754,friends,Friends,B,Cohort-specific Model 3
+wealth_ihs_T2,"IHS wealth at T2 (wealth/$100,000)",-0.000276639285027,0.00252438566096,-0.00522683242287,0.00467355385281,-0.109586775628,2408,0.91274623037,friends,Friends,B,Cohort-specific Model 3
+marital_separated_divorced,Separated/divorced vs married/partnered,0.0181664177149,0.00770730942079,0.00305277212742,0.0332800633025,2.35703755009,2408,0.0185010222461,friends,Friends,B,Cohort-specific Model 3
+marital_widowed,Widowed vs married/partnered,0.0156935324514,0.00638378475917,0.00317525206458,0.0282118128381,2.45834298044,2408,0.0140279207419,friends,Friends,B,Cohort-specific Model 3
+marital_never_married,Never married vs married/partnered,0.033889898267,0.0100764058049,0.0141305739923,0.0536492225417,3.36329232102,2408,0.000782239624703,friends,Friends,B,Cohort-specific Model 3
+Intercept,Intercept,-0.237636799757,0.0174241971478,-0.271803394545,-0.20347020497,-13.638321338,2618,5.75194641603e-41,other_relatives,Other relatives,A,Cohort-specific Model 3
+cog_T2,Cognition at T2,1.07700270264,0.00439851871975,1.06837777688,1.08562762839,244.855773331,2618,0,other_relatives,Other relatives,A,Cohort-specific Model 3
+ucla3_T1,Loneliness at T1,5.47702929321e-05,0.00583519988782,-0.0113873012343,0.0114968418202,0.00938618967388,2618,0.99251172929,other_relatives,Other relatives,A,Cohort-specific Model 3
+delta_loneliness,Change in loneliness,0.00170973477553,0.0118625978757,-0.0215512838702,0.0249707534213,0.144128191265,2618,0.885410336915,other_relatives,Other relatives,A,Cohort-specific Model 3
+contact_increased,Increased contact vs maintained frequent,0.0048648045177,0.00717501892923,-0.00920447869037,0.0189340877258,0.678019746803,2618,0.497819091828,other_relatives,Other relatives,A,Cohort-specific Model 3
+contact_decreased,Decreased contact vs maintained frequent,-0.00685259670374,0.00769701235496,-0.0219454414399,0.00824024803243,-0.890293062778,2618,0.373390349858,other_relatives,Other relatives,A,Cohort-specific Model 3
+contact_maintained_infrequent,Maintained infrequent vs maintained frequent,0.00127025763678,0.00611781588277,-0.0107259872677,0.0132665025413,0.207632537678,2618,0.835532045888,other_relatives,Other relatives,A,Cohort-specific Model 3
+delta_x_increased,Loneliness change x increased contact,-0.0136026396769,0.016536549528,-0.0460286724009,0.0188233930471,-0.822580288218,2618,0.410821625812,other_relatives,Other relatives,A,Cohort-specific Model 3
+delta_x_decreased,Loneliness change x decreased contact,-0.0190525789198,0.0184734819091,-0.0552766852785,0.017171527439,-1.03134747491,2618,0.302473169228,other_relatives,Other relatives,A,Cohort-specific Model 3
+delta_x_maintained_infrequent,Loneliness change x maintained infrequent,-0.00363856174545,0.0159189115124,-0.034853486283,0.0275763627922,-0.228568501221,2618,0.819222160459,other_relatives,Other relatives,A,Cohort-specific Model 3
+age_T2_centered,Age at T2 (per year; centered at 75),-0.00933619488051,0.000467064523966,-0.0102520479436,-0.00842034181742,-19.9890901609,2618,7.63550372215e-83,other_relatives,Other relatives,A,Cohort-specific Model 3
+male,Male vs Female,0.0111128070192,0.00512388044143,0.00106554083553,0.0211600732028,2.16882637021,2618,0.0301856194569,other_relatives,Other relatives,A,Cohort-specific Model 3
+education,Education (years),-0.00175142122967,0.000969614191657,-0.00365270912864,0.000149866669294,-1.80630733826,2618,0.0709851383278,other_relatives,Other relatives,A,Cohort-specific Model 3
+race_black,Black/African American non-Hispanic vs White non-Hispanic,0.00712942374022,0.00908430036644,-0.0106837131815,0.024942560662,0.784807134577,2618,0.432637665434,other_relatives,Other relatives,A,Cohort-specific Model 3
+race_hispanic,Hispanic vs White non-Hispanic,0.0173360068871,0.0116529554667,-0.00551393013601,0.0401859439102,1.48769185093,2618,0.136952607642,other_relatives,Other relatives,A,Cohort-specific Model 3
+race_other,Other non-Hispanic vs White non-Hispanic,0.0542775312701,0.0240288375198,0.00716009178159,0.101394970759,2.25884965202,2618,0.0239746867734,other_relatives,Other relatives,A,Cohort-specific Model 3
+wealth_ihs_T2,"IHS wealth at T2 (wealth/$100,000)",-0.00158345246595,0.00240220110598,-0.00629385783437,0.00312695290247,-0.659167320343,2618,0.50984630272,other_relatives,Other relatives,A,Cohort-specific Model 3
+marital_separated_divorced,Separated/divorced vs married/partnered,0.00985244372299,0.00887734574165,-0.0075548819729,0.0272597694189,1.10984116308,2618,0.267169407898,other_relatives,Other relatives,A,Cohort-specific Model 3
+marital_widowed,Widowed vs married/partnered,0.0146027336775,0.00603867608679,0.00276167166708,0.0264437956879,2.41820118642,2618,0.015665287415,other_relatives,Other relatives,A,Cohort-specific Model 3
+marital_never_married,Never married vs married/partnered,0.026435600726,0.0105201186796,0.00580700998006,0.0470641914719,2.51286145444,2618,0.0120352715332,other_relatives,Other relatives,A,Cohort-specific Model 3
+Intercept,Intercept,-0.236899028222,0.0186229927182,-0.273417672821,-0.200380383622,-12.7207818747,2422,6.22905609037e-36,other_relatives,Other relatives,B,Cohort-specific Model 3
+cog_T2,Cognition at T2,1.07783228902,0.00497918528536,1.06806838584,1.0875961922,216.467600069,2422,0,other_relatives,Other relatives,B,Cohort-specific Model 3
+ucla3_T1,Loneliness at T1,-0.00371877124058,0.00698258023302,-0.0174112195906,0.00997367710939,-0.53257837597,2422,0.594374329618,other_relatives,Other relatives,B,Cohort-specific Model 3
+delta_loneliness,Change in loneliness,-0.0159525978971,0.0116622860873,-0.0388216870538,0.00691649125959,-1.36787914288,2422,0.17147680696,other_relatives,Other relatives,B,Cohort-specific Model 3
+contact_increased,Increased contact vs maintained frequent,-0.000718731418178,0.00770624740616,-0.0158302505214,0.014392787685,-0.0932660710587,2422,0.925699899934,other_relatives,Other relatives,B,Cohort-specific Model 3
+contact_decreased,Decreased contact vs maintained frequent,0.00193988705308,0.00827732054703,-0.0142914744615,0.0181712485676,0.2343617167,2422,0.814723985785,other_relatives,Other relatives,B,Cohort-specific Model 3
+contact_maintained_infrequent,Maintained infrequent vs maintained frequent,-0.0031143498414,0.00572919407831,-0.0143489782146,0.00812027853184,-0.543593007817,2422,0.586771601309,other_relatives,Other relatives,B,Cohort-specific Model 3
+delta_x_increased,Loneliness change x increased contact,-0.0054577225296,0.0183983698993,-0.0415358943747,0.0306204493155,-0.296641635074,2422,0.766765555712,other_relatives,Other relatives,B,Cohort-specific Model 3
+delta_x_decreased,Loneliness change x decreased contact,-0.00285283837758,0.018015874093,-0.0381809573918,0.0324752806366,-0.158351371843,2422,0.874193131138,other_relatives,Other relatives,B,Cohort-specific Model 3
+delta_x_maintained_infrequent,Loneliness change x maintained infrequent,0.00187301203109,0.0140433532069,-0.0256652162497,0.0294112403119,0.133373561392,2422,0.893909033742,other_relatives,Other relatives,B,Cohort-specific Model 3
+age_T2_centered,Age at T2 (per year; centered at 75),-0.00980890125378,0.000429417903351,-0.0106509656864,-0.00896683682115,-22.8423202135,2422,9.47757211009e-105,other_relatives,Other relatives,B,Cohort-specific Model 3
+male,Male vs Female,0.028105917466,0.00520516520684,0.0178988803294,0.0383129546026,5.39962063626,2422,7.32868880955e-08,other_relatives,Other relatives,B,Cohort-specific Model 3
+education,Education (years),-0.00257450360178,0.000999212860279,-0.00453390399869,-0.000615103204876,-2.57653169222,2422,0.0100384188327,other_relatives,Other relatives,B,Cohort-specific Model 3
+race_black,Black/African American non-Hispanic vs White non-Hispanic,0.0192781446931,0.00797931891613,0.00363114766896,0.0349251417173,2.41601380967,2422,0.0157650054845,other_relatives,Other relatives,B,Cohort-specific Model 3
+race_hispanic,Hispanic vs White non-Hispanic,0.0108132815357,0.00971763448594,-0.00824245486008,0.0298690179314,1.11274832896,2422,0.265926961566,other_relatives,Other relatives,B,Cohort-specific Model 3
+race_other,Other non-Hispanic vs White non-Hispanic,0.00635977536787,0.0161950630796,-0.0253978353351,0.0381173860708,0.392698400531,2422,0.694576809346,other_relatives,Other relatives,B,Cohort-specific Model 3
+wealth_ihs_T2,"IHS wealth at T2 (wealth/$100,000)",-2.35469604498e-05,0.00255297571164,-0.00502978919524,0.00498269527434,-0.00922333900099,2422,0.99264170416,other_relatives,Other relatives,B,Cohort-specific Model 3
+marital_separated_divorced,Separated/divorced vs married/partnered,0.0183249434917,0.00757866257149,0.00346361109612,0.0331862758874,2.41796534928,2422,0.0156809167017,other_relatives,Other relatives,B,Cohort-specific Model 3
+marital_widowed,Widowed vs married/partnered,0.0147403980018,0.00637439749758,0.0022405618975,0.0272402341061,2.31243784332,2422,0.0208370257598,other_relatives,Other relatives,B,Cohort-specific Model 3
+marital_never_married,Never married vs married/partnered,0.0350643586503,0.0102576261662,0.0149497288448,0.0551789884558,3.41836971655,2422,0.00064038876713,other_relatives,Other relatives,B,Cohort-specific Model 3
+Intercept,Intercept,-0.236281680245,0.0182477854618,-0.272064396155,-0.200498964335,-12.9485126148,2445,3.87069326846e-37,children,Children,A,Cohort-specific Model 3
+cog_T2,Cognition at T2,1.07555260119,0.00450629951488,1.06671604205,1.08438916033,238.677566291,2445,0,children,Children,A,Cohort-specific Model 3
+ucla3_T1,Loneliness at T1,-0.000941148160662,0.00627044015291,-0.0132370719094,0.0113547755881,-0.150092838415,2445,0.880703750134,children,Children,A,Cohort-specific Model 3
+delta_loneliness,Change in loneliness,-0.014988088615,0.00784605389325,-0.0303736880382,0.000397510808172,-1.91027092331,2445,0.056215213681,children,Children,A,Cohort-specific Model 3
+contact_increased,Increased contact vs maintained frequent,0.00560201135911,0.0107861703539,-0.015548964486,0.0267529872042,0.519369820362,2445,0.603549883005,children,Children,A,Cohort-specific Model 3
+contact_decreased,Decreased contact vs maintained frequent,0.00128392559785,0.00990586359264,-0.0181408261628,0.0207086773585,0.129612687056,2445,0.89688352649,children,Children,A,Cohort-specific Model 3
+contact_maintained_infrequent,Maintained infrequent vs maintained frequent,0.000863419681058,0.00880894436499,-0.016410345091,0.0181371844531,0.0980162486313,2445,0.921927425163,children,Children,A,Cohort-specific Model 3
+delta_x_increased,Loneliness change x increased contact,0.0505356048612,0.0292131390991,-0.00674945361391,0.107820663336,1.72989300087,2445,0.083775590871,children,Children,A,Cohort-specific Model 3
+delta_x_decreased,Loneliness change x decreased contact,0.0266216682232,0.0231186138346,-0.018712424114,0.0719557605603,1.15152527801,2445,0.249628791901,children,Children,A,Cohort-specific Model 3
+delta_x_maintained_infrequent,Loneliness change x maintained infrequent,-0.00441117775803,0.0216478277676,-0.046861154644,0.038038799128,-0.203769995096,2445,0.838550199158,children,Children,A,Cohort-specific Model 3
+age_T2_centered,Age at T2 (per year; centered at 75),-0.0092532457573,0.000491937583694,-0.0102179032408,-0.00828858827381,-18.8097963319,2445,7.97710702792e-74,children,Children,A,Cohort-specific Model 3
+male,Male vs Female,0.0127068405428,0.0055286562718,0.00186550655457,0.0235481745311,2.29835965886,2445,0.0216253380418,children,Children,A,Cohort-specific Model 3
+education,Education (years),-0.00176936962839,0.00102623326862,-0.00378174606635,0.000243006809567,-1.72413980573,2445,0.0848090080584,children,Children,A,Cohort-specific Model 3
+race_black,Black/African American non-Hispanic vs White non-Hispanic,0.0053599723852,0.00952566428026,-0.0133192333467,0.0240391781171,0.562687517374,2445,0.573699273401,children,Children,A,Cohort-specific Model 3
+race_hispanic,Hispanic vs White non-Hispanic,0.0154886764587,0.0125801009938,-0.00918008024716,0.0401574331645,1.23120446063,2445,0.218364818087,children,Children,A,Cohort-specific Model 3
+race_other,Other non-Hispanic vs White non-Hispanic,0.0529669746707,0.0255012829793,0.00296062370309,0.102973325638,2.07703176008,2445,0.0379028127241,children,Children,A,Cohort-specific Model 3
+wealth_ihs_T2,"IHS wealth at T2 (wealth/$100,000)",-0.00201262205401,0.0025218144166,-0.00695773547808,0.00293249137007,-0.798084918841,2445,0.424898718672,children,Children,A,Cohort-specific Model 3
+marital_separated_divorced,Separated/divorced vs married/partnered,0.00953046309749,0.00940135104064,-0.00890497248785,0.0279658986828,1.01373335133,2445,0.310810310168,children,Children,A,Cohort-specific Model 3
+marital_widowed,Widowed vs married/partnered,0.0200660840246,0.0063127684642,0.00768715722096,0.0324450108281,3.17865040328,2445,0.00149811053969,children,Children,A,Cohort-specific Model 3
+marital_never_married,Never married vs married/partnered,0.0576029224303,0.0202727141772,0.0178494535153,0.0973563913453,2.8414015966,2445,0.0045287793158,children,Children,A,Cohort-specific Model 3
+Intercept,Intercept,-0.241622250321,0.0188841913892,-0.278654667003,-0.20458983364,-12.794948184,2232,3.1737192496e-36,children,Children,B,Cohort-specific Model 3
+cog_T2,Cognition at T2,1.07816129121,0.0049531064747,1.06844811371,1.0878744687,217.6737562,2232,0,children,Children,B,Cohort-specific Model 3
+ucla3_T1,Loneliness at T1,-0.00276864951412,0.00722378248814,-0.0169346848823,0.0113973858541,-0.383268671041,2232,0.701557065411,children,Children,B,Cohort-specific Model 3
+delta_loneliness,Change in loneliness,-0.0187607090333,0.00861899353415,-0.0356627914872,-0.00185862657948,-2.17667050787,2232,0.0296096566505,children,Children,B,Cohort-specific Model 3
+contact_increased,Increased contact vs maintained frequent,0.021851451719,0.00995670079039,0.00232608868666,0.0413768147513,2.19464782351,2232,0.0282915602966,children,Children,B,Cohort-specific Model 3
+contact_decreased,Decreased contact vs maintained frequent,-0.00412409278139,0.0102866700551,-0.024296534582,0.0160483490192,-0.40091621091,2232,0.688520188663,children,Children,B,Cohort-specific Model 3
+contact_maintained_infrequent,Maintained infrequent vs maintained frequent,0.00777285526548,0.0076256283703,-0.00718121088698,0.0227269214179,1.01930685421,2232,0.308167780607,children,Children,B,Cohort-specific Model 3
+delta_x_increased,Loneliness change x increased contact,-0.0047084972168,0.020644135609,-0.0451922127306,0.0357752182969,-0.22807916524,2232,0.819605588701,children,Children,B,Cohort-specific Model 3
+delta_x_decreased,Loneliness change x decreased contact,0.0480198284056,0.0214934191634,0.00587064457396,0.0901690122373,2.23416423607,2232,0.0255709371092,children,Children,B,Cohort-specific Model 3
+delta_x_maintained_infrequent,Loneliness change x maintained infrequent,0.0193283413031,0.0161809327738,-0.0124029111732,0.0510595937794,1.19451341732,2232,0.232404115537,children,Children,B,Cohort-specific Model 3
+age_T2_centered,Age at T2 (per year; centered at 75),-0.0099356002484,0.000444760854957,-0.01080778847,-0.00906341202678,-22.3391967564,2232,6.25787613925e-100,children,Children,B,Cohort-specific Model 3
+male,Male vs Female,0.0279929966724,0.00548914052308,0.0172286417214,0.0387573516234,5.09970487269,2232,3.68841202268e-07,children,Children,B,Cohort-specific Model 3
+education,Education (years),-0.00293701852112,0.00098919597003,-0.00487685891922,-0.000997178123029,-2.96909673119,2232,0.00301858282729,children,Children,B,Cohort-specific Model 3
+race_black,Black/African American non-Hispanic vs White non-Hispanic,0.023059871683,0.00839846610196,0.00659024956541,0.0395294938005,2.74572420761,2232,0.0060861645289,children,Children,B,Cohort-specific Model 3
+race_hispanic,Hispanic vs White non-Hispanic,0.00866833649292,0.0101441700573,-0.0112246589079,0.0285613318937,0.854514114409,2232,0.392911898179,children,Children,B,Cohort-specific Model 3
+race_other,Other non-Hispanic vs White non-Hispanic,0.0226810288981,0.0153162665547,-0.00735458943332,0.0527166472295,1.4808457934,2232,0.138788813035,children,Children,B,Cohort-specific Model 3
+wealth_ihs_T2,"IHS wealth at T2 (wealth/$100,000)",0.00167038687779,0.00263158436284,-0.00349022215489,0.00683099591048,0.634745707332,2232,0.525659334416,children,Children,B,Cohort-specific Model 3
+marital_separated_divorced,Separated/divorced vs married/partnered,0.0218430729939,0.0077925160696,0.00656173549093,0.0371244104969,2.80308347122,2232,0.00510539205762,children,Children,B,Cohort-specific Model 3
+marital_widowed,Widowed vs married/partnered,0.0182605292864,0.00656010758245,0.00539597859083,0.0311250799819,2.78357161935,2232,0.00542169498895,children,Children,B,Cohort-specific Model 3
+marital_never_married,Never married vs married/partnered,0.0381433101655,0.0205485595009,-0.0021529779817,0.0784395983128,1.85625226741,2232,0.0635493066792,children,Children,B,Cohort-specific Model 3

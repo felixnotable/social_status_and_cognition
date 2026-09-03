@@ -1,0 +1,13 @@
+domain,domain_label,contact_group,contact_group_label,N,n,percent
+friends,Friends,maintained_frequent,Maintained frequent,5068,2785,54.952644041
+friends,Friends,increased_contact,Increased contact,5068,622,12.27308603
+friends,Friends,decreased_contact,Decreased contact,5068,691,13.63456985
+friends,Friends,maintained_infrequent,Maintained infrequent,5068,970,19.1397000789
+other_relatives,Other relatives,maintained_frequent,Maintained frequent,5080,1873,36.8700787402
+other_relatives,Other relatives,increased_contact,Increased contact,5080,794,15.6299212598
+other_relatives,Other relatives,decreased_contact,Decreased contact,5080,743,14.625984252
+other_relatives,Other relatives,maintained_infrequent,Maintained infrequent,5080,1670,32.874015748
+children,Children,maintained_frequent,Maintained frequent,4717,3536,74.9629001484
+children,Children,increased_contact,Increased contact,4717,342,7.25037099852
+children,Children,decreased_contact,Decreased contact,4717,399,8.45876616494
+children,Children,maintained_infrequent,Maintained infrequent,4717,440,9.32796268815

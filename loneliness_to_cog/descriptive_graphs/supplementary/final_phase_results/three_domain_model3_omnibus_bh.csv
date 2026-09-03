@@ -1,0 +1,4 @@
+f_statistic,df_numerator,df_denominator,wald_chi_square,chi_square_df,chi_square_p_value,domain,domain_label,model,covariance,unadjusted_p_value,bh_rank,bh_adjusted_p_value,bh_reject_at_fdr_0_05,primary_conclusion
+1.6056348558,3,5047,4.8169045674,3,0.185705844644,friends,Friends,Model 3,HC3,0.185849265837,2,0.278773898756,False,Do not reject domain omnibus null at BH FDR 0.05
+0.413923872076,3,5059,1.24177161623,3,0.743004160858,other_relatives,Other relatives,Model 3,HC3,0.743011251356,3,0.743011251356,False,Do not reject domain omnibus null at BH FDR 0.05
+2.10942005729,3,4696,6.32826017188,3,0.0966872058277,children,Children,Model 3,HC3,0.0968394132133,1,0.278773898756,False,Do not reject domain omnibus null at BH FDR 0.05

@@ -1,0 +1,13 @@
+estimate,hc3_standard_error,ci_95_low,ci_95_high,t_value,df,p_value,domain,domain_label,cohort,contact_group,contact_group_label,effect_unit
+0.000420314943108,0.00651142613918,-0.0123449071034,0.0131855369896,0.0645503664058,5047,0.948534560548,friends,Friends,,maintained_frequent,Maintained frequent,Per one-point increase in UCLA-3 loneliness change
+-0.0121026794741,0.00822445195805,-0.0282261758037,0.00402081685553,-1.47154844308,5047,0.141205203904,friends,Friends,,increased_contact,Increased contact,Per one-point increase in UCLA-3 loneliness change
+-0.0236215472882,0.0121953483101,-0.047529724358,0.000286629781681,-1.93693092543,5047,0.0528095275761,friends,Friends,,decreased_contact,Decreased contact,Per one-point increase in UCLA-3 loneliness change
+-0.0171918459548,0.0102217722767,-0.0372309572082,0.00284726529865,-1.68188504785,5047,0.0926529970726,friends,Friends,,maintained_infrequent,Maintained infrequent,Per one-point increase in UCLA-3 loneliness change
+-0.00701900433983,0.00821454418048,-0.0231230679612,0.00908505928151,-0.854460598861,5059,0.392890291266,other_relatives,Other relatives,,maintained_frequent,Maintained frequent,Per one-point increase in UCLA-3 loneliness change
+-0.0161258872621,0.00986893226333,-0.035473267902,0.00322149337786,-1.63400526336,5059,0.102319967648,other_relatives,Other relatives,,increased_contact,Increased contact,Per one-point increase in UCLA-3 loneliness change
+-0.0185320455559,0.0105608873245,-0.0392359577431,0.00217186663133,-1.75478110755,5059,0.079357286206,other_relatives,Other relatives,,decreased_contact,Decreased contact,Per one-point increase in UCLA-3 loneliness change
+-0.00817712107289,0.00783315905274,-0.023533504698,0.00717926255227,-1.04391102208,5059,0.296576436891,other_relatives,Other relatives,,maintained_infrequent,Maintained infrequent,Per one-point increase in UCLA-3 loneliness change
+-0.0170209218977,0.00579202865434,-0.0283760161495,-0.00566582764594,-2.9386805407,4696,0.003312176765,children,Children,,maintained_frequent,Maintained frequent,Per one-point increase in UCLA-3 loneliness change
+0.007718770598,0.0178888268173,-0.0273517248513,0.0427892660473,0.431485567881,4696,0.666135151555,children,Children,,increased_contact,Increased contact,Per one-point increase in UCLA-3 loneliness change
+0.0182596160241,0.015146933322,-0.0114354814556,0.0479547135039,1.20549920146,4696,0.228071385091,children,Children,,decreased_contact,Decreased contact,Per one-point increase in UCLA-3 loneliness change
+-0.011664752289,0.0137274466653,-0.0385769897835,0.0152474852056,-0.849739399711,4696,0.395513306549,children,Children,,maintained_infrequent,Maintained infrequent,Per one-point increase in UCLA-3 loneliness change

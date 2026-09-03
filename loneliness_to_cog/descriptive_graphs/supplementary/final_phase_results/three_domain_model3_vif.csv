@@ -1,0 +1,61 @@
+domain,term,term_label,r_squared_against_other_predictors,vif
+friends,cog_T2,Cognition at T2,0.182144923743,1.22271051318
+friends,ucla3_T1,Loneliness at T1,0.325386769551,1.48233084509
+friends,delta_loneliness,Change in loneliness,0.594550299432,2.46639718465
+friends,contact_increased,Increased contact vs maintained frequent,0.0891211347052,1.09784081957
+friends,contact_decreased,Decreased contact vs maintained frequent,0.107358804576,1.12027094999
+friends,contact_maintained_infrequent,Maintained infrequent vs maintained frequent,0.146546718798,1.17171029982
+friends,delta_x_increased,Loneliness change x increased contact,0.236859426399,1.31037456871
+friends,delta_x_decreased,Loneliness change x decreased contact,0.247640797914,1.32915234801
+friends,delta_x_maintained_infrequent,Loneliness change x maintained infrequent,0.352250032046,1.54380555689
+friends,age_T2_centered,Age at T2 (per year; centered at 75),0.193762352232,1.2403290801
+friends,male,Male vs Female,0.148243178636,1.17404401693
+friends,education,Education (years),0.222517725368,1.28620295617
+friends,race_black,Black/African American non-Hispanic vs White non-Hispanic,0.0892056572252,1.09794270016
+friends,race_hispanic,Hispanic vs White non-Hispanic,0.127150098423,1.14567235236
+friends,race_other,Other non-Hispanic vs White non-Hispanic,0.00998794520693,1.0100887107
+friends,wealth_ihs_T2,"IHS wealth at T2 (wealth/$100,000)",0.2415885133,1.3185454302
+friends,marital_separated_divorced,Separated/divorced vs married/partnered,0.158535056039,1.18840363722
+friends,marital_widowed,Widowed vs married/partnered,0.286847233366,1.40222410511
+friends,marital_never_married,Never married vs married/partnered,0.0403226783848,1.04201691285
+friends,cohort_B,Cohort B vs Cohort A,0.00622877772428,1.00626781857
+other_relatives,cog_T2,Cognition at T2,0.183134213437,1.22419131325
+other_relatives,ucla3_T1,Loneliness at T1,0.314333619398,1.45843522198
+other_relatives,delta_loneliness,Change in loneliness,0.704128293615,3.37984328484
+other_relatives,contact_increased,Increased contact vs maintained frequent,0.187003741799,1.23001796123
+other_relatives,contact_decreased,Decreased contact vs maintained frequent,0.185023811209,1.22702971419
+other_relatives,contact_maintained_infrequent,Maintained infrequent vs maintained frequent,0.272168137991,1.37394369798
+other_relatives,delta_x_increased,Loneliness change x increased contact,0.3556298919,1.55190314918
+other_relatives,delta_x_decreased,Loneliness change x decreased contact,0.334202772051,1.50195879169
+other_relatives,delta_x_maintained_infrequent,Loneliness change x maintained infrequent,0.495934406516,1.98386879193
+other_relatives,age_T2_centered,Age at T2 (per year; centered at 75),0.192484358344,1.23836610514
+other_relatives,male,Male vs Female,0.151052955913,1.17792977426
+other_relatives,education,Education (years),0.230286540568,1.29918476512
+other_relatives,race_black,Black/African American non-Hispanic vs White non-Hispanic,0.0995079905215,1.11050402388
+other_relatives,race_hispanic,Hispanic vs White non-Hispanic,0.125554339177,1.14358163669
+other_relatives,race_other,Other non-Hispanic vs White non-Hispanic,0.010242297086,1.01034828732
+other_relatives,wealth_ihs_T2,"IHS wealth at T2 (wealth/$100,000)",0.240662954567,1.3169382503
+other_relatives,marital_separated_divorced,Separated/divorced vs married/partnered,0.151984953067,1.17922435883
+other_relatives,marital_widowed,Widowed vs married/partnered,0.282393537956,1.39352145346
+other_relatives,marital_never_married,Never married vs married/partnered,0.0408267380139,1.04256450803
+other_relatives,cohort_B,Cohort B vs Cohort A,0.00467500784995,1.0046969662
+children,cog_T2,Cognition at T2,0.182503147952,1.22324630058
+children,ucla3_T1,Loneliness at T1,0.317570032997,1.46535182854
+children,delta_loneliness,Change in loneliness,0.431285143372,1.75835040767
+children,contact_increased,Increased contact vs maintained frequent,0.0387776197796,1.04034198597
+children,contact_decreased,Decreased contact vs maintained frequent,0.0452280374923,1.04737051282
+children,contact_maintained_infrequent,Maintained infrequent vs maintained frequent,0.064696712903,1.06917190797
+children,delta_x_increased,Loneliness change x increased contact,0.11506465818,1.13002606263
+children,delta_x_decreased,Loneliness change x decreased contact,0.126926137187,1.14537846406
+children,delta_x_maintained_infrequent,Loneliness change x maintained infrequent,0.11141179264,1.12538067883
+children,age_T2_centered,Age at T2 (per year; centered at 75),0.189608748159,1.23397185955
+children,male,Male vs Female,0.170671497914,1.20579480566
+children,education,Education (years),0.225501516078,1.29115811168
+children,race_black,Black/African American non-Hispanic vs White non-Hispanic,0.105463037252,1.1178967909
+children,race_hispanic,Hispanic vs White non-Hispanic,0.130537397267,1.1501357239
+children,race_other,Other non-Hispanic vs White non-Hispanic,0.0149417182605,1.01516835962
+children,wealth_ihs_T2,"IHS wealth at T2 (wealth/$100,000)",0.238263170567,1.3127893537
+children,marital_separated_divorced,Separated/divorced vs married/partnered,0.155440971073,1.18404986004
+children,marital_widowed,Widowed vs married/partnered,0.281297122194,1.39139556955
+children,marital_never_married,Never married vs married/partnered,0.0370630116084,1.03848955026
+children,cohort_B,Cohort B vs Cohort A,0.00379155874988,1.00380598938

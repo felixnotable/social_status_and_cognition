@@ -1,0 +1,14 @@
+assumption_id,topic,decision_or_assumption,status
+A01,Frozen input,"Use the 8,041-row, 79-column master with the recorded SHA-256 hash.",Fixed
+A02,Primary inference,Unweighted OLS with HC3 covariance and residual-df t/F reference distributions.,Fixed
+A03,Primary multiplicity,BH adjustment applies only to the three pooled Model 3 omnibus interaction tests.,Fixed
+A04,Categorical-change reference,Stable or unchanged loneliness is the reference category; maintained frequent remains the contact reference.,Methods-required implementation assumption
+A05,Categorical sensitivity test,Joint HC3 robust Wald F test of six change-category-by-contact interaction terms.,Methods-required implementation assumption
+A06,Cohort sensitivity,Fit fully adjusted continuous-change Model 3 separately by cohort and omit cohort indicator.,Methods-specified
+A07,Prediction range,Display pooled Model 3 marginal predictions from -1 to +1 loneliness change for comparability and support.,Fixed runbook default
+A08,Stochastic steps,"No imputation, resampling, random initialization, or stochastic optimization.",None
+A09,Interpretation,"Results are sample-conditional associations, not nationally representative or causal effects.",Fixed
+A10,Overall-association sample,"Use the 5,243-person fully adjusted longitudinal sample without requiring contact data.",Professor-specified
+A11,Overall-association sequence,"Model 1 adjusts for T2 cognition and T1 loneliness; Model 2 adds age, sex, education, and race/ethnicity; Model 3 adds IHS wealth, marital status, and cohort.",Professor-specified
+A12,Overall cohort check,Repeat fully adjusted Model 3 separately in Cohorts A and B and omit the cohort indicator; do not add further exploratory models.,Professor-specified
+A13,Formal cohort comparison,Add a loneliness-change-by-cohort interaction to pooled fully adjusted Model 3; use the HC3 interaction test to evaluate equality of the Cohort A and B slopes.,User-requested follow-up

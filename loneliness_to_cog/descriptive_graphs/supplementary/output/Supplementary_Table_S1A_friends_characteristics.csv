@@ -1,0 +1,24 @@
+section,characteristic,Combined,Cohort A,Cohort B
+Sample,N,"5,068","2,640","2,428"
+Continuous: mean (SD),"Age at T2, years",76.93 (5.85),76.96 (5.96),76.90 (5.73)
+Continuous: mean (SD),"Education, years",12.74 (2.89),12.77 (2.86),12.71 (2.93)
+Continuous: mean (SD),Loneliness at T1,1.41 (0.50),1.41 (0.51),1.40 (0.50)
+Continuous: mean (SD),Loneliness at T2,1.42 (0.50),1.42 (0.51),1.42 (0.50)
+Continuous: mean (SD),Change in loneliness (T2 − T1),0.02 (0.47),0.01 (0.48),0.02 (0.46)
+Continuous: mean (SD),Cognition at T2,1.47 (0.71),1.47 (0.72),1.46 (0.70)
+Continuous: mean (SD),Cognition at T3,1.31 (0.79),1.31 (0.80),1.30 (0.78)
+Continuous: median [IQR],"Wealth at T2, dollars","$203,317 [$71,500, $486,250]","$213,225 [$77,000, $490,168]","$187,000 [$67,000, $480,375]"
+Categorical: n (%),Sex: Female,"2,949 (58.2%)","1,505 (57.0%)","1,444 (59.5%)"
+Categorical: n (%),Sex: Male,"2,119 (41.8%)","1,135 (43.0%)",984 (40.5%)
+Categorical: n (%),"Race/ethnicity: White, non-Hispanic","4,224 (83.3%)","2,222 (84.2%)","2,002 (82.5%)"
+Categorical: n (%),"Race/ethnicity: Black/African American, non-Hispanic",470 (9.3%),242 (9.2%),228 (9.4%)
+Categorical: n (%),Race/ethnicity: Hispanic,295 (5.8%),134 (5.1%),161 (6.6%)
+Categorical: n (%),"Race/ethnicity: Other, non-Hispanic",79 (1.6%),42 (1.6%),37 (1.5%)
+Categorical: n (%),Marital status at T2: Married/partnered,"3,020 (59.6%)","1,609 (60.9%)","1,411 (58.1%)"
+Categorical: n (%),Marital status at T2: Separated/divorced,468 (9.2%),218 (8.3%),250 (10.3%)
+Categorical: n (%),Marital status at T2: Widowed,"1,462 (28.8%)",759 (28.8%),703 (29.0%)
+Categorical: n (%),Marital status at T2: Never married,118 (2.3%),54 (2.0%),64 (2.6%)
+Categorical: n (%),Friends contact transition: Maintained frequent,"2,785 (55.0%)","1,429 (54.1%)","1,356 (55.8%)"
+Categorical: n (%),Friends contact transition: Increased contact,622 (12.3%),349 (13.2%),273 (11.2%)
+Categorical: n (%),Friends contact transition: Decreased contact,691 (13.6%),348 (13.2%),343 (14.1%)
+Categorical: n (%),Friends contact transition: Maintained infrequent,970 (19.1%),514 (19.5%),456 (18.8%)

@@ -1,0 +1,2 @@
+N,model,coefficient_per_one_point_loneliness_change,observed_t3_cognition_sd,observed_loneliness_change_sd,outcome_sd_per_one_point_loneliness_change,cognition_units_per_one_sd_loneliness_change,standardized_effect_per_one_sd_loneliness_change,note
+5243,Pooled Model 3,-0.0116144656872,0.796098517067,0.473665967168,-0.0145892316568,-0.00550137712285,-0.00691042252298,Descriptive rescaling of the fully adjusted coefficient; not an additional regression model.

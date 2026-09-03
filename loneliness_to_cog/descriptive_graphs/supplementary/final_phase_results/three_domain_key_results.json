@@ -1,0 +1,448 @@
+{
+  "input": {
+    "path": "C:\\Users\\felix\\Downloads\\supplementary\\HRS_participant_level_cohorts_current.csv",
+    "sha256": "d6f53a78d2f8140b6589a036c5b2abb11499b678eeef38a48cf3c30017685828",
+    "rows": 8041,
+    "columns": 79
+  },
+  "sample_counts": {
+    "friends": {
+      "N": 5068,
+      "cohort_counts": {
+        "A": 2640,
+        "B": 2428
+      },
+      "contact_counts": {
+        "maintained_frequent": 2785,
+        "maintained_infrequent": 970,
+        "decreased_contact": 691,
+        "increased_contact": 622
+      },
+      "change_category_counts": {
+        "stable": 2421,
+        "increasing": 1381,
+        "decreasing": 1266
+      }
+    },
+    "other_relatives": {
+      "N": 5080,
+      "cohort_counts": {
+        "A": 2638,
+        "B": 2442
+      },
+      "contact_counts": {
+        "maintained_frequent": 1873,
+        "maintained_infrequent": 1670,
+        "increased_contact": 794,
+        "decreased_contact": 743
+      },
+      "change_category_counts": {
+        "stable": 2420,
+        "increasing": 1397,
+        "decreasing": 1263
+      }
+    },
+    "children": {
+      "N": 4717,
+      "cohort_counts": {
+        "A": 2465,
+        "B": 2252
+      },
+      "contact_counts": {
+        "maintained_frequent": 3536,
+        "maintained_infrequent": 440,
+        "decreased_contact": 399,
+        "increased_contact": 342
+      },
+      "change_category_counts": {
+        "stable": 2242,
+        "increasing": 1304,
+        "decreasing": 1171
+      }
+    },
+    "overall_contact_independent": {
+      "N": 5243,
+      "cohort_counts": {
+        "A": 2722,
+        "B": 2521
+      }
+    }
+  },
+  "primary_model3_omnibus": [
+    {
+      "f_statistic": 1.6056348557999316,
+      "df_numerator": 3,
+      "df_denominator": 5047,
+      "wald_chi_square": 4.816904567399795,
+      "chi_square_df": 3,
+      "chi_square_p_value": 0.18570584464412979,
+      "domain": "friends",
+      "domain_label": "Friends",
+      "model": "Model 3",
+      "covariance": "HC3",
+      "unadjusted_p_value": 0.18584926583719524,
+      "bh_rank": 2,
+      "bh_adjusted_p_value": 0.27877389875579284,
+      "bh_reject_at_fdr_0_05": false,
+      "primary_conclusion": "Do not reject domain omnibus null at BH FDR 0.05"
+    },
+    {
+      "f_statistic": 0.4139238720758309,
+      "df_numerator": 3,
+      "df_denominator": 5059,
+      "wald_chi_square": 1.2417716162274928,
+      "chi_square_df": 3,
+      "chi_square_p_value": 0.7430041608578098,
+      "domain": "other_relatives",
+      "domain_label": "Other relatives",
+      "model": "Model 3",
+      "covariance": "HC3",
+      "unadjusted_p_value": 0.7430112513562788,
+      "bh_rank": 3,
+      "bh_adjusted_p_value": 0.7430112513562787,
+      "bh_reject_at_fdr_0_05": false,
+      "primary_conclusion": "Do not reject domain omnibus null at BH FDR 0.05"
+    },
+    {
+      "f_statistic": 2.1094200572931414,
+      "df_numerator": 3,
+      "df_denominator": 4696,
+      "wald_chi_square": 6.328260171879424,
+      "chi_square_df": 3,
+      "chi_square_p_value": 0.0966872058276999,
+      "domain": "children",
+      "domain_label": "Children",
+      "model": "Model 3",
+      "covariance": "HC3",
+      "unadjusted_p_value": 0.09683941321330926,
+      "bh_rank": 1,
+      "bh_adjusted_p_value": 0.27877389875579284,
+      "bh_reject_at_fdr_0_05": false,
+      "primary_conclusion": "Do not reject domain omnibus null at BH FDR 0.05"
+    }
+  ],
+  "categorical_change_sensitivity_omnibus": [
+    {
+      "f_statistic": 1.6252851790318543,
+      "df_numerator": 6,
+      "df_denominator": 5043,
+      "p_value": 0.13575698899698024,
+      "wald_chi_square": 9.751711074191126,
+      "chi_square_df": 6,
+      "chi_square_p_value": 0.13550497134251274,
+      "domain": "friends",
+      "domain_label": "Friends",
+      "N": 5068,
+      "change_reference": "stable",
+      "contact_reference": "maintained_frequent",
+      "covariance": "HC3",
+      "descriptive_bh_rank": 2,
+      "descriptive_bh_adjusted_p": 0.20363548349547037,
+      "multiplicity_note": "Descriptive BH context across the three categorical-change sensitivity tests; not the prespecified primary testing family"
+    },
+    {
+      "f_statistic": 2.2418982043729274,
+      "df_numerator": 6,
+      "df_denominator": 5055,
+      "p_value": 0.0365729893919441,
+      "wald_chi_square": 13.451389226237565,
+      "chi_square_df": 6,
+      "chi_square_p_value": 0.036402316080032665,
+      "domain": "other_relatives",
+      "domain_label": "Other relatives",
+      "N": 5080,
+      "change_reference": "stable",
+      "contact_reference": "maintained_frequent",
+      "covariance": "HC3",
+      "descriptive_bh_rank": 1,
+      "descriptive_bh_adjusted_p": 0.10971896817583231,
+      "multiplicity_note": "Descriptive BH context across the three categorical-change sensitivity tests; not the prespecified primary testing family"
+    },
+    {
+      "f_statistic": 1.1111523354226112,
+      "df_numerator": 6,
+      "df_denominator": 4692,
+      "p_value": 0.35293925822392624,
+      "wald_chi_square": 6.666914012535667,
+      "chi_square_df": 6,
+      "chi_square_p_value": 0.3527516464432979,
+      "domain": "children",
+      "domain_label": "Children",
+      "N": 4717,
+      "change_reference": "stable",
+      "contact_reference": "maintained_frequent",
+      "covariance": "HC3",
+      "descriptive_bh_rank": 3,
+      "descriptive_bh_adjusted_p": 0.3529392582239262,
+      "multiplicity_note": "Descriptive BH context across the three categorical-change sensitivity tests; not the prespecified primary testing family"
+    }
+  ],
+  "cohort_specific_sensitivity_omnibus": [
+    {
+      "f_statistic": 0.6978395965210105,
+      "df_numerator": 3,
+      "df_denominator": 2620,
+      "p_value": 0.5533135699053975,
+      "wald_chi_square": 2.0935187895630314,
+      "chi_square_df": 3,
+      "chi_square_p_value": 0.5532250687984348,
+      "domain": "friends",
+      "domain_label": "Friends",
+      "cohort": "A",
+      "N": 2640,
+      "covariance": "HC3",
+      "cohort_indicator_included": false
+    },
+    {
+      "f_statistic": 1.4525616261748757,
+      "df_numerator": 3,
+      "df_denominator": 2408,
+      "p_value": 0.22562736816659923,
+      "wald_chi_square": 4.357684878524627,
+      "chi_square_df": 3,
+      "chi_square_p_value": 0.22534120007608743,
+      "domain": "friends",
+      "domain_label": "Friends",
+      "cohort": "B",
+      "N": 2428,
+      "covariance": "HC3",
+      "cohort_indicator_included": false
+    },
+    {
+      "f_statistic": 0.47965667480206237,
+      "df_numerator": 3,
+      "df_denominator": 2618,
+      "p_value": 0.6964540128367297,
+      "wald_chi_square": 1.4389700244061872,
+      "chi_square_df": 3,
+      "chi_square_p_value": 0.6964258995541678,
+      "domain": "other_relatives",
+      "domain_label": "Other relatives",
+      "cohort": "A",
+      "N": 2638,
+      "covariance": "HC3",
+      "cohort_indicator_included": false
+    },
+    {
+      "f_statistic": 0.06776902126602252,
+      "df_numerator": 3,
+      "df_denominator": 2422,
+      "p_value": 0.9770482349217671,
+      "wald_chi_square": 0.20330706379806757,
+      "chi_square_df": 3,
+      "chi_square_p_value": 0.9770536671498179,
+      "domain": "other_relatives",
+      "domain_label": "Other relatives",
+      "cohort": "B",
+      "N": 2442,
+      "covariance": "HC3",
+      "cohort_indicator_included": false
+    },
+    {
+      "f_statistic": 1.4095823452072844,
+      "df_numerator": 3,
+      "df_denominator": 2445,
+      "p_value": 0.23807580431685454,
+      "wald_chi_square": 4.228747035621853,
+      "chi_square_df": 3,
+      "chi_square_p_value": 0.23779947536289756,
+      "domain": "children",
+      "domain_label": "Children",
+      "cohort": "A",
+      "N": 2465,
+      "covariance": "HC3",
+      "cohort_indicator_included": false
+    },
+    {
+      "f_statistic": 2.046454913406911,
+      "df_numerator": 3,
+      "df_denominator": 2232,
+      "p_value": 0.10534754668473907,
+      "wald_chi_square": 6.139364740220733,
+      "chi_square_df": 3,
+      "chi_square_p_value": 0.10502322449561988,
+      "domain": "children",
+      "domain_label": "Children",
+      "cohort": "B",
+      "N": 2252,
+      "covariance": "HC3",
+      "cohort_indicator_included": false
+    }
+  ],
+  "overall_loneliness_change_effects": [
+    {
+      "term": "delta_loneliness",
+      "term_label": "Change in loneliness",
+      "estimate": -0.012336156506792996,
+      "hc3_standard_error": 0.005301396467285352,
+      "ci_95_low": -0.022729103720668838,
+      "ci_95_high": -0.0019432092929171554,
+      "t_value": -2.3269635808072064,
+      "df": 5239,
+      "p_value": 0.02000512917822774,
+      "analysis_scope": "Pooled",
+      "cohort": "Combined",
+      "model": "Model 1",
+      "covariance": "HC3",
+      "N": 5243,
+      "effect_unit": "Adjusted T3 cognition difference per one-point increase in UCLA-3 loneliness change"
+    },
+    {
+      "term": "delta_loneliness",
+      "term_label": "Change in loneliness",
+      "estimate": -0.009550773224749898,
+      "hc3_standard_error": 0.004900754978772063,
+      "ci_95_low": -0.019158298640297392,
+      "ci_95_high": 5.675219079759666e-05,
+      "t_value": -1.9488371212435003,
+      "df": 5233,
+      "p_value": 0.05136824626344101,
+      "analysis_scope": "Pooled",
+      "cohort": "Combined",
+      "model": "Model 2",
+      "covariance": "HC3",
+      "N": 5243,
+      "effect_unit": "Adjusted T3 cognition difference per one-point increase in UCLA-3 loneliness change"
+    },
+    {
+      "term": "delta_loneliness",
+      "term_label": "Change in loneliness",
+      "estimate": -0.01161446568716147,
+      "hc3_standard_error": 0.0049265228567739175,
+      "ci_95_low": -0.021272509036445616,
+      "ci_95_high": -0.0019564223378773227,
+      "t_value": -2.3575381714086032,
+      "df": 5228,
+      "p_value": 0.018433208765373136,
+      "analysis_scope": "Pooled",
+      "cohort": "Combined",
+      "model": "Model 3",
+      "covariance": "HC3",
+      "N": 5243,
+      "effect_unit": "Adjusted T3 cognition difference per one-point increase in UCLA-3 loneliness change"
+    },
+    {
+      "term": "delta_loneliness",
+      "term_label": "Change in loneliness",
+      "estimate": -0.006521704032765871,
+      "hc3_standard_error": 0.006920210067124729,
+      "ci_95_low": -0.020091131459792938,
+      "ci_95_high": 0.007047723394261195,
+      "t_value": -0.9424141708859378,
+      "df": 2708,
+      "p_value": 0.3460646991901043,
+      "analysis_scope": "Cohort-specific sensitivity",
+      "cohort": "A",
+      "model": "Model 3",
+      "covariance": "HC3",
+      "N": 2722,
+      "effect_unit": "Adjusted T3 cognition difference per one-point increase in UCLA-3 loneliness change"
+    },
+    {
+      "term": "delta_loneliness",
+      "term_label": "Change in loneliness",
+      "estimate": -0.016598961139112016,
+      "hc3_standard_error": 0.006960944394839683,
+      "ci_95_low": -0.030248751434596315,
+      "ci_95_high": -0.002949170843627719,
+      "t_value": -2.384584647941913,
+      "df": 2507,
+      "p_value": 0.017172354873526963,
+      "analysis_scope": "Cohort-specific sensitivity",
+      "cohort": "B",
+      "model": "Model 3",
+      "covariance": "HC3",
+      "N": 2521,
+      "effect_unit": "Adjusted T3 cognition difference per one-point increase in UCLA-3 loneliness change"
+    }
+  ],
+  "overall_loneliness_change_cohort_comparison": [
+    {
+      "estimate": -0.007040642605992282,
+      "hc3_standard_error": 0.006539966270831769,
+      "ci_95_low": -0.019861709792958204,
+      "ci_95_high": 0.005780424580973642,
+      "t_value": -1.0765564093798967,
+      "df": 5227,
+      "p_value": 0.28172817182785803,
+      "comparison": "Cohort A loneliness-change slope",
+      "cohort_or_difference": "A",
+      "formal_equality_test": false,
+      "N": 5243,
+      "model": "Pooled Model 3 plus loneliness-change-by-cohort interaction",
+      "covariance": "HC3",
+      "reference_cohort": "Cohort A",
+      "effect_unit": "Adjusted T3 cognition difference per one-point UCLA-3 loneliness change"
+    },
+    {
+      "estimate": -0.01676708403913288,
+      "hc3_standard_error": 0.006253604230951629,
+      "ci_95_low": -0.029026761946543245,
+      "ci_95_high": -0.004507406131722512,
+      "t_value": -2.68118726735948,
+      "df": 5227,
+      "p_value": 0.007359183415857564,
+      "comparison": "Cohort B loneliness-change slope",
+      "cohort_or_difference": "B",
+      "formal_equality_test": false,
+      "N": 5243,
+      "model": "Pooled Model 3 plus loneliness-change-by-cohort interaction",
+      "covariance": "HC3",
+      "reference_cohort": "Cohort A",
+      "effect_unit": "Adjusted T3 cognition difference per one-point UCLA-3 loneliness change"
+    },
+    {
+      "estimate": -0.009726441433140597,
+      "hc3_standard_error": 0.008203980768483433,
+      "ci_95_low": -0.025809672489303964,
+      "ci_95_high": 0.006356789623022769,
+      "t_value": -1.1855758451440888,
+      "df": 5227,
+      "p_value": 0.23584373947190174,
+      "comparison": "Cohort B minus Cohort A slope difference",
+      "cohort_or_difference": "B minus A",
+      "formal_equality_test": true,
+      "N": 5243,
+      "model": "Pooled Model 3 plus loneliness-change-by-cohort interaction",
+      "covariance": "HC3",
+      "reference_cohort": "Cohort A",
+      "effect_unit": "Adjusted T3 cognition difference per one-point UCLA-3 loneliness change"
+    }
+  ],
+  "overall_loneliness_change_magnitude_context": [
+    {
+      "N": 5243,
+      "model": "Pooled Model 3",
+      "coefficient_per_one_point_loneliness_change": -0.01161446568716147,
+      "observed_t3_cognition_sd": 0.7960985170670112,
+      "observed_loneliness_change_sd": 0.47366596716803433,
+      "outcome_sd_per_one_point_loneliness_change": -0.014589231656845088,
+      "cognition_units_per_one_sd_loneliness_change": -0.0055013771228492854,
+      "standardized_effect_per_one_sd_loneliness_change": -0.006910422522978032,
+      "note": "Descriptive rescaling of the fully adjusted coefficient; not an additional regression model."
+    }
+  ],
+  "validation": {
+    "checks": 52,
+    "passed": 52,
+    "failed": 0
+  },
+  "software": {
+    "python": "3.14.2 (tags/v3.14.2:df79316, Dec  5 2025, 17:18:21) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "pandas": "3.0.1",
+    "numpy": "2.4.3",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8"
+  },
+  "analysis_scope": {
+    "primary_models": 9,
+    "categorical_change_sensitivity_models": 3,
+    "cohort_specific_sensitivity_models": 6,
+    "overall_loneliness_change_models": 5,
+    "formal_cohort_comparison_models": 1,
+    "total_regression_models": 24,
+    "survey_weighted": false,
+    "causal_interpretation": false
+  }
+}
