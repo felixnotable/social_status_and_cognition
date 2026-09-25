@@ -1,0 +1,52 @@
+﻿cohort,timepoint,wave,year,relationship,modality,variable,dct_question_label,observed_substantive_codes,observed_nonstandard_numeric_codes,blank_count,n_designated_cohort_wave
+A,T1,8,2006,children,inperson,KLB009A,Q09A. MEET UP WITH CHILDREN,1|2|3|4|5|6,,552,4157
+A,T1,8,2006,children,phone,KLB009B,Q09B. SPEAK ON THE PHONE WITH CHILDREN,1|2|3|4|5|6,,520,4157
+A,T1,8,2006,children,written_email,KLB009C,Q09C. WRITE OR EMAIL CHILDREN,1|2|3|4|5|6,,856,4157
+A,T1,8,2006,other_relatives,inperson,KLB013A,Q13A. MEET UP WITH OTH FAMILY MEMBERS,1|2|3|4|5|6,,486,4157
+A,T1,8,2006,other_relatives,phone,KLB013B,Q13B. SPEAK ON PHONE WITH OTH FAM MEM,1|2|3|4|5|6,,454,4157
+A,T1,8,2006,other_relatives,written_email,KLB013C,Q13C. WRITE OR EMAIL OTH FAMILY MEMBERS,1|2|3|4|5|6,,770,4157
+A,T1,8,2006,friends,inperson,KLB017A,Q17A. MEET UP WITH FRIENDS,1|2|3|4|5|6,,492,4157
+A,T1,8,2006,friends,phone,KLB017B,Q17B. SPEAK ON PHONE WITH FRIENDS,1|2|3|4|5|6,,495,4157
+A,T1,8,2006,friends,written_email,KLB017C,Q17C. WRITE OR EMAIL FRIENDS,1|2|3|4|5|6,,842,4157
+B,T1,9,2008,children,inperson,LLB009A,Q09A. MEET UP WITH CHILDREN,1|2|3|4|5|6,,425,3674
+B,T1,9,2008,children,phone,LLB009B,Q09B. SPEAK ON THE PHONE WITH CHILDREN,1|2|3|4|5|6,,389,3674
+B,T1,9,2008,children,written_email,LLB009C,Q09C. WRITE OR EMAIL CHILDREN,1|2|3|4|5|6,,560,3674
+B,T1,9,2008,other_relatives,inperson,LLB013A,Q13A. MEET UP WITH OTH FAMILY MEMBERS,1|2|3|4|5|6,,353,3674
+B,T1,9,2008,other_relatives,phone,LLB013B,Q13B. SPEAK ON PHONE WITH OTH FAM MEM,1|2|3|4|5|6,,324,3674
+B,T1,9,2008,other_relatives,written_email,LLB013C,Q13C. WRITE OR EMAIL OTH FAMILY MEMBERS,1|2|3|4|5|6,,486,3674
+B,T1,9,2008,friends,inperson,LLB017A,Q17A. MEET UP WITH FRIENDS,1|2|3|4|5|6,,299,3674
+B,T1,9,2008,friends,phone,LLB017B,Q17B. SPEAK ON PHONE WITH FRIENDS,1|2|3|4|5|6,,291,3674
+B,T1,9,2008,friends,written_email,LLB017C,Q17C. WRITE OR EMAIL FRIENDS,1|2|3|4|5|6,,500,3674
+A,T2,10,2010,children,inperson,MLB009A,Q09A. MEET UP WITH CHILDREN,1|2|3|4|5|6,,584,4241
+A,T2,10,2010,children,phone,MLB009B,Q09B. SPEAK ON THE PHONE WITH CHILDREN,1|2|3|4|5|6,,521,4241
+A,T2,10,2010,children,written_email,MLB009C,Q09C. WRITE OR EMAIL CHILDREN,1|2|3|4|5|6,,758,4241
+A,T2,10,2010,other_relatives,inperson,MLB013A,Q13A. MEET UP WITH OTH FAMILY MEMBERS,1|2|3|4|5|6,,510,4241
+A,T2,10,2010,other_relatives,phone,MLB013B,Q13B. SPEAK ON PHONE WITH OTH FAM MEM,1|2|3|4|5|6,,476,4241
+A,T2,10,2010,other_relatives,written_email,MLB013C,Q13C. WRITE OR EMAIL OTH FAMILY MEMBERS,1|2|3|4|5|6,,688,4241
+A,T2,10,2010,friends,inperson,MLB017A,Q17A. MEET UP WITH FRIENDS,1|2|3|4|5|6,,467,4241
+A,T2,10,2010,friends,phone,MLB017B,Q17B. SPEAK ON PHONE WITH FRIENDS,1|2|3|4|5|6,,451,4241
+A,T2,10,2010,friends,written_email,MLB017C,Q17C. WRITE OR EMAIL FRIENDS,1|2|3|4|5|6,,673,4241
+B,T2,11,2012,children,inperson,NLB009A,Q09A. MEET UP WITH CHILDREN,1|2|3|4|5|6,,496,3754
+B,T2,11,2012,children,phone,NLB009B,Q09B. SPEAK ON THE PHONE WITH CHILDREN,1|2|3|4|5|6,,446,3754
+B,T2,11,2012,children,written_email,NLB009C,Q09C. WRITE OR EMAIL CHILDREN,1|2|3|4|5|6,,583,3754
+B,T2,11,2012,other_relatives,inperson,NLB013A,Q13A. MEET UP WITH OTH FAMILY MEMBERS,1|2|3|4|5|6,,461,3754
+B,T2,11,2012,other_relatives,phone,NLB013B,Q13B. SPEAK ON PHONE WITH OTH FAM MEM,1|2|3|4|5|6,,429,3754
+B,T2,11,2012,other_relatives,written_email,NLB013C,Q13C. WRITE OR EMAIL OTH FAMILY MEMBERS,1|2|3|4|5|6,,535,3754
+B,T2,11,2012,friends,inperson,NLB017A,Q17A. MEET UP WITH FRIENDS,1|2|3|4|5|6,,467,3754
+B,T2,11,2012,friends,phone,NLB017B,Q17B. SPEAK ON PHONE WITH FRIENDS,1|2|3|4|5|6,,454,3754
+B,T2,11,2012,friends,written_email,NLB017C,Q17C. WRITE OR EMAIL FRIENDS,1|2|3|4|5|6,,560,3754
+
+COLUMN_EXPLANATION_START,column_name,meaning,interpretation,,,,,,,,
+COLUMN_EXPLANATION,cohort,Cohort assigned to the HRS wave.,A is the 2006/2010 sequence; B is the 2008/2012 sequence.,,,,,,,,
+COLUMN_EXPLANATION,timepoint,Position of the wave in the cohort design.,T1 is the first contact measurement; T2 is the second.,,,,,,,,
+COLUMN_EXPLANATION,wave,HRS wave number.,"Wave 8=2006, 9=2008, 10=2010, 11=2012.",,,,,,,,
+COLUMN_EXPLANATION,year,Calendar year of the Leave-Behind questionnaire.,Distinguishes the actual observation year from the abstract T1/T2 label.,,,,,,,,
+COLUMN_EXPLANATION,relationship,Relationship domain being audited.,"children, other_relatives, or friends.",,,,,,,,
+COLUMN_EXPLANATION,modality,Mode of social contact.,"inperson, phone, or written_email.",,,,,,,,
+COLUMN_EXPLANATION,variable,Exact raw HRS Leave-Behind variable name.,Allows direct tracing back to the original HRS item.,,,,,,,,
+COLUMN_EXPLANATION,dct_question_label,Question label read from the HRS Stata dictionary file.,Checks that the same substantive question is being compared across waves.,,,,,,,,
+COLUMN_EXPLANATION,observed_substantive_codes,Expected substantive raw response codes actually observed.,The desired pattern is 1|2|3|4|5|6 in every wave/domain/mode cell.,,,,,,,,
+COLUMN_EXPLANATION,observed_nonstandard_numeric_codes,Observed numeric codes outside the expected 1-6 range.,Blank means no unexpected numeric codes were found.,,,,,,,,
+COLUMN_EXPLANATION,blank_count,Number of raw records with a blank modality-frequency value.,"Broad raw blank count; can include skip patterns, absent relationship groups, and nonresponse.",,,,,,,,
+COLUMN_EXPLANATION,n_designated_cohort_wave,Number of cohort participants with an available raw LB record for this wave.,Starting denominator for the coding audit at that cohort-wave.,,,,,,,,
+COLUMN_EXPLANATION_END,,,,,,,,,,,

@@ -1,0 +1,56 @@
+﻿cohort,timepoint,wave,year,relationship,modality,n_designated_cohort_wave,n_group_yes,n_group_no,n_group_other_or_blank,n_valid_frequency_among_group_yes,n_missing_frequency_among_group_yes,n_nonstandard_frequency_code_among_group_yes,valid_frequency_percent_among_group_yes,analysis_score_nonmissing_n,analysis_score_nonmissing_percent_of_cohort_wave
+A,T1,8,2006,children,inperson,4157,3577,264,316,3484,93,0,97.40005591277607,3594,86.45657926389222
+A,T1,8,2006,children,phone,4157,3577,264,316,3513,64,0,98.21079116578139,3626,87.22636516718788
+A,T1,8,2006,children,written_email,4157,3577,264,316,3190,387,0,89.1808778305843,3290,79.1436131825836
+A,T1,8,2006,other_relatives,inperson,4157,3733,210,214,3621,112,0,96.99973211893919,3849,92.59081068077941
+A,T1,8,2006,other_relatives,phone,4157,3733,210,214,3649,84,0,97.74979908920439,3880,93.33654077459707
+A,T1,8,2006,other_relatives,written_email,4157,3733,210,214,3346,387,0,89.63300294669168,3570,85.8792398364205
+A,T1,8,2006,friends,inperson,4157,3670,233,254,3602,68,0,98.14713896457765,3877,93.2643733461631
+A,T1,8,2006,friends,phone,4157,3670,233,254,3597,73,0,98.0108991825613,3876,93.24031753668511
+A,T1,8,2006,friends,written_email,4157,3670,233,254,3261,409,0,88.85558583106267,3530,84.91700745730094
+A,T2,10,2010,children,inperson,4241,3633,324,284,3525,108,0,97.02725020644095,3633,85.66375854751237
+A,T2,10,2010,children,phone,4241,3633,324,284,3580,53,0,98.54115056427194,3696,87.14925725064843
+A,T2,10,2010,children,written_email,4241,3633,324,284,3360,273,0,92.48554913294798,3459,81.56095260551757
+A,T2,10,2010,other_relatives,inperson,4241,3740,310,191,3647,93,0,97.51336898395722,3984,93.94010846498468
+A,T2,10,2010,other_relatives,phone,4241,3740,310,191,3678,62,0,98.34224598930481,4016,94.69464748879982
+A,T2,10,2010,other_relatives,written_email,4241,3740,310,191,3482,258,0,93.10160427807487,3813,89.90804055647253
+A,T2,10,2010,friends,inperson,4241,3736,267,238,3666,70,0,98.12633832976445,4000,94.31737797689225
+A,T2,10,2010,friends,phone,4241,3736,267,238,3682,54,0,98.55460385438973,4016,94.69464748879982
+A,T2,10,2010,friends,written_email,4241,3736,267,238,3472,264,0,92.93361884368308,3799,89.5779297335534
+B,T1,9,2008,children,inperson,3674,3221,272,181,3141,80,0,97.51629928593604,3236,88.07838867719107
+B,T1,9,2008,children,phone,3674,3221,272,181,3176,45,0,98.60291834833903,3272,89.05824714207948
+B,T1,9,2008,children,written_email,3674,3221,272,181,3016,205,0,93.63551692021112,3103,84.45835601524225
+B,T1,9,2008,other_relatives,inperson,3674,3358,219,97,3276,82,0,97.55807027992853,3507,95.45454545454545
+B,T1,9,2008,other_relatives,phone,3674,3358,219,97,3303,55,0,98.36212030970816,3535,96.21665759390311
+B,T1,9,2008,other_relatives,written_email,3674,3358,219,97,3146,212,0,93.68671828469327,3376,91.88894937397932
+B,T1,9,2008,friends,inperson,3674,3334,202,138,3301,33,0,99.01019796040792,3554,96.73380511703866
+B,T1,9,2008,friends,phone,3674,3334,202,138,3304,30,0,99.1001799640072,3557,96.81545998911268
+B,T1,9,2008,friends,written_email,3674,3334,202,138,3107,227,0,93.19136172765447,3355,91.31736526946108
+B,T2,11,2012,children,inperson,3754,3133,260,361,3035,98,0,96.8720076603894,3245,86.4411294619073
+B,T2,11,2012,children,phone,3754,3133,260,361,3079,54,0,98.27641238429621,3295,87.773042088439
+B,T2,11,2012,children,written_email,3754,3133,260,361,2964,169,0,94.60580912863071,3158,84.12360149174214
+B,T2,11,2012,other_relatives,inperson,3754,3265,302,187,3183,82,0,97.4885145482389,3543,94.37932871603623
+B,T2,11,2012,other_relatives,phone,3754,3265,302,187,3208,57,0,98.25421133231241,3573,95.17847629195525
+B,T2,11,2012,other_relatives,written_email,3754,3265,302,187,3115,150,0,95.40581929555896,3469,92.40809802876932
+B,T2,11,2012,friends,inperson,3754,3253,277,224,3165,88,0,97.29480479557331,3525,93.89984017048482
+B,T2,11,2012,friends,phone,3754,3253,277,224,3179,74,0,97.72517675991392,3540,94.29941395844432
+B,T2,11,2012,friends,written_email,3754,3253,277,224,3082,171,0,94.74331386412543,3436,91.52903569525839
+
+COLUMN_EXPLANATION_START,column_name,meaning,interpretation,,,,,,,,,,,,
+COLUMN_EXPLANATION,cohort,Cohort.,A or B.,,,,,,,,,,,,
+COLUMN_EXPLANATION,timepoint,Cohort analysis timepoint.,T1 or T2.,,,,,,,,,,,,
+COLUMN_EXPLANATION,wave,HRS wave number.,"8, 9, 10, or 11.",,,,,,,,,,,,
+COLUMN_EXPLANATION,year,Calendar year.,"2006, 2008, 2010, or 2012.",,,,,,,,,,,,
+COLUMN_EXPLANATION,relationship,Relationship domain.,"children, other_relatives, or friends.",,,,,,,,,,,,
+COLUMN_EXPLANATION,modality,Contact method.,"inperson, phone, or written_email.",,,,,,,,,,,,
+COLUMN_EXPLANATION,n_designated_cohort_wave,Number of cohort participants with an available raw LB record for this wave.,Starting denominator for the cohort-wave.,,,,,,,,,,,,
+COLUMN_EXPLANATION,n_group_yes,Number reporting that they have the relevant relationship group.,Relationship-eligible respondents for the raw modality question.,,,,,,,,,,,,
+COLUMN_EXPLANATION,n_group_no,Number explicitly reporting that they do not have the relationship group.,For friends/other relatives this can later map to zero contact; childless respondents remain missing in the established pipeline.,,,,,,,,,,,,
+COLUMN_EXPLANATION,n_group_other_or_blank,"Number whose group-presence response is neither standard yes nor standard no, or is blank.",Signals unresolved group-status missingness or nonstandard response.,,,,,,,,,,,,
+COLUMN_EXPLANATION,n_valid_frequency_among_group_yes,Number with a valid 1-6 modality frequency among respondents who have the relationship group.,Main valid-response count.,,,,,,,,,,,,
+COLUMN_EXPLANATION,n_missing_frequency_among_group_yes,Number with a blank modality frequency despite reporting the relationship group.,True item-level missingness among eligible respondents.,,,,,,,,,,,,
+COLUMN_EXPLANATION,n_nonstandard_frequency_code_among_group_yes,Number with an unexpected numeric frequency code among group-eligible respondents.,Should be zero if coding is clean.,,,,,,,,,,,,
+COLUMN_EXPLANATION,valid_frequency_percent_among_group_yes,Percent of group-eligible respondents with a valid 1-6 frequency response.,Primary completeness statistic for the modality item.,,,,,,,,,,,,
+COLUMN_EXPLANATION,analysis_score_nonmissing_n,Number with a nonmissing derived 0-5 analysis score.,Actual number potentially available downstream before cognition/covariate requirements.,,,,,,,,,,,,
+COLUMN_EXPLANATION,analysis_score_nonmissing_percent_of_cohort_wave,Percent of the cohort-wave with a nonmissing derived 0-5 score.,Overall availability of the analytic modality variable.,,,,,,,,,,,,
+COLUMN_EXPLANATION_END,,,,,,,,,,,,,,,

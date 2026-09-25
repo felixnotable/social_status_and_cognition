@@ -1,0 +1,231 @@
+﻿cohort,timepoint,wave,year,relationship,modality,raw_code,raw_label,analysis_score,count,percent_among_valid_group_yes
+A,T1,8,2006,children,inperson,1,3+ times/week,5,557,15.987370838117107
+A,T1,8,2006,children,inperson,2,1-2 times/week,4,980,28.128587830080367
+A,T1,8,2006,children,inperson,3,1-2 times/month,3,837,24.02411021814007
+A,T1,8,2006,children,inperson,4,Every few months,2,570,16.360505166475317
+A,T1,8,2006,children,inperson,5,1-2 times/year,1,377,10.82089552238806
+A,T1,8,2006,children,inperson,6,<1/year or never,0,163,4.6785304247990815
+A,T1,8,2006,children,phone,1,3+ times/week,5,1494,42.527754056362085
+A,T1,8,2006,children,phone,2,1-2 times/week,4,1307,37.204668374608595
+A,T1,8,2006,children,phone,3,1-2 times/month,3,497,14.147452319954455
+A,T1,8,2006,children,phone,4,Every few months,2,136,3.8713350412752634
+A,T1,8,2006,children,phone,5,1-2 times/year,1,33,0.9393680614859095
+A,T1,8,2006,children,phone,6,<1/year or never,0,46,1.309422146313692
+A,T1,8,2006,children,written_email,1,3+ times/week,5,195,6.112852664576803
+A,T1,8,2006,children,written_email,2,1-2 times/week,4,425,13.322884012539184
+A,T1,8,2006,children,written_email,3,1-2 times/month,3,539,16.896551724137932
+A,T1,8,2006,children,written_email,4,Every few months,2,349,10.940438871473354
+A,T1,8,2006,children,written_email,5,1-2 times/year,1,315,9.87460815047022
+A,T1,8,2006,children,written_email,6,<1/year or never,0,1367,42.85266457680251
+A,T1,8,2006,other_relatives,inperson,1,3+ times/week,5,319,8.809721071527202
+A,T1,8,2006,other_relatives,inperson,2,1-2 times/week,4,617,17.03949185307926
+A,T1,8,2006,other_relatives,inperson,3,1-2 times/month,3,760,20.988677161005246
+A,T1,8,2006,other_relatives,inperson,4,Every few months,2,768,21.209610604805302
+A,T1,8,2006,other_relatives,inperson,5,1-2 times/year,1,699,19.304059652029824
+A,T1,8,2006,other_relatives,inperson,6,<1/year or never,0,458,12.648439657553162
+A,T1,8,2006,other_relatives,phone,1,3+ times/week,5,777,21.29350506988216
+A,T1,8,2006,other_relatives,phone,2,1-2 times/week,4,969,26.55522060838586
+A,T1,8,2006,other_relatives,phone,3,1-2 times/month,3,1037,28.41874486160592
+A,T1,8,2006,other_relatives,phone,4,Every few months,2,551,15.10002740476843
+A,T1,8,2006,other_relatives,phone,5,1-2 times/year,1,192,5.2617155385037
+A,T1,8,2006,other_relatives,phone,6,<1/year or never,0,123,3.3707865168539324
+A,T1,8,2006,other_relatives,written_email,1,3+ times/week,5,111,3.317393903167962
+A,T1,8,2006,other_relatives,written_email,2,1-2 times/week,4,281,8.398087268380156
+A,T1,8,2006,other_relatives,written_email,3,1-2 times/month,3,444,13.269575612671847
+A,T1,8,2006,other_relatives,written_email,4,Every few months,2,430,12.851165570830842
+A,T1,8,2006,other_relatives,written_email,5,1-2 times/year,1,393,11.745367603108189
+A,T1,8,2006,other_relatives,written_email,6,<1/year or never,0,1687,50.41841004184101
+A,T1,8,2006,friends,inperson,1,3+ times/week,5,521,14.464186563020544
+A,T1,8,2006,friends,inperson,2,1-2 times/week,4,1272,35.31371460299833
+A,T1,8,2006,friends,inperson,3,1-2 times/month,3,965,26.790671848972792
+A,T1,8,2006,friends,inperson,4,Every few months,2,484,13.436979455857857
+A,T1,8,2006,friends,inperson,5,1-2 times/year,1,224,6.218767351471405
+A,T1,8,2006,friends,inperson,6,<1/year or never,0,136,3.7756801776790674
+A,T1,8,2006,friends,phone,1,3+ times/week,5,794,22.073950514317488
+A,T1,8,2006,friends,phone,2,1-2 times/week,4,1338,37.1976647206005
+A,T1,8,2006,friends,phone,3,1-2 times/month,3,886,24.63163747567417
+A,T1,8,2006,friends,phone,4,Every few months,2,366,10.175145954962469
+A,T1,8,2006,friends,phone,5,1-2 times/year,1,108,3.0025020850708923
+A,T1,8,2006,friends,phone,6,<1/year or never,0,105,2.9190992493744785
+A,T1,8,2006,friends,written_email,1,3+ times/week,5,187,5.7344372891751
+A,T1,8,2006,friends,written_email,2,1-2 times/week,4,358,10.978227537565164
+A,T1,8,2006,friends,written_email,3,1-2 times/month,3,396,12.143514259429622
+A,T1,8,2006,friends,written_email,4,Every few months,2,282,8.647654093836247
+A,T1,8,2006,friends,written_email,5,1-2 times/year,1,297,9.107635694572217
+A,T1,8,2006,friends,written_email,6,<1/year or never,0,1741,53.38853112542165
+A,T2,10,2010,children,inperson,1,3+ times/week,5,545,15.460992907801419
+A,T2,10,2010,children,inperson,2,1-2 times/week,4,942,26.72340425531915
+A,T2,10,2010,children,inperson,3,1-2 times/month,3,821,23.29078014184397
+A,T2,10,2010,children,inperson,4,Every few months,2,592,16.79432624113475
+A,T2,10,2010,children,inperson,5,1-2 times/year,1,421,11.943262411347519
+A,T2,10,2010,children,inperson,6,<1/year or never,0,204,5.787234042553192
+A,T2,10,2010,children,phone,1,3+ times/week,5,1580,44.134078212290504
+A,T2,10,2010,children,phone,2,1-2 times/week,4,1206,33.687150837988824
+A,T2,10,2010,children,phone,3,1-2 times/month,3,534,14.916201117318435
+A,T2,10,2010,children,phone,4,Every few months,2,158,4.41340782122905
+A,T2,10,2010,children,phone,5,1-2 times/year,1,41,1.1452513966480447
+A,T2,10,2010,children,phone,6,<1/year or never,0,61,1.7039106145251397
+A,T2,10,2010,children,written_email,1,3+ times/week,5,273,8.125
+A,T2,10,2010,children,written_email,2,1-2 times/week,4,444,13.214285714285714
+A,T2,10,2010,children,written_email,3,1-2 times/month,3,528,15.714285714285714
+A,T2,10,2010,children,written_email,4,Every few months,2,379,11.279761904761905
+A,T2,10,2010,children,written_email,5,1-2 times/year,1,283,8.422619047619047
+A,T2,10,2010,children,written_email,6,<1/year or never,0,1453,43.24404761904762
+A,T2,10,2010,other_relatives,inperson,1,3+ times/week,5,279,7.650123389086921
+A,T2,10,2010,other_relatives,inperson,2,1-2 times/week,4,616,16.89059500959693
+A,T2,10,2010,other_relatives,inperson,3,1-2 times/month,3,798,21.880998080614205
+A,T2,10,2010,other_relatives,inperson,4,Every few months,2,733,20.098711269536604
+A,T2,10,2010,other_relatives,inperson,5,1-2 times/year,1,715,19.60515492185358
+A,T2,10,2010,other_relatives,inperson,6,<1/year or never,0,506,13.874417329311763
+A,T2,10,2010,other_relatives,phone,1,3+ times/week,5,842,22.892876563349645
+A,T2,10,2010,other_relatives,phone,2,1-2 times/week,4,985,26.780859162588364
+A,T2,10,2010,other_relatives,phone,3,1-2 times/month,3,932,25.339858618814574
+A,T2,10,2010,other_relatives,phone,4,Every few months,2,570,15.497553017944535
+A,T2,10,2010,other_relatives,phone,5,1-2 times/year,1,208,5.655247417074497
+A,T2,10,2010,other_relatives,phone,6,<1/year or never,0,141,3.833605220228385
+A,T2,10,2010,other_relatives,written_email,1,3+ times/week,5,161,4.623779437105112
+A,T2,10,2010,other_relatives,written_email,2,1-2 times/week,4,285,8.184951177484205
+A,T2,10,2010,other_relatives,written_email,3,1-2 times/month,3,500,14.359563469270535
+A,T2,10,2010,other_relatives,written_email,4,Every few months,2,390,11.200459506031017
+A,T2,10,2010,other_relatives,written_email,5,1-2 times/year,1,396,11.372774267662264
+A,T2,10,2010,other_relatives,written_email,6,<1/year or never,0,1750,50.25847214244687
+A,T2,10,2010,friends,inperson,1,3+ times/week,5,539,14.702673213311511
+A,T2,10,2010,friends,inperson,2,1-2 times/week,4,1196,32.6241134751773
+A,T2,10,2010,friends,inperson,3,1-2 times/month,3,993,27.086743044189852
+A,T2,10,2010,friends,inperson,4,Every few months,2,510,13.911620294599018
+A,T2,10,2010,friends,inperson,5,1-2 times/year,1,238,6.492089470812875
+A,T2,10,2010,friends,inperson,6,<1/year or never,0,190,5.1827605019094385
+A,T2,10,2010,friends,phone,1,3+ times/week,5,857,23.2753938077132
+A,T2,10,2010,friends,phone,2,1-2 times/week,4,1241,33.704508419337316
+A,T2,10,2010,friends,phone,3,1-2 times/month,3,919,24.959261271048344
+A,T2,10,2010,friends,phone,4,Every few months,2,380,10.320478001086366
+A,T2,10,2010,friends,phone,5,1-2 times/year,1,150,4.073872895165671
+A,T2,10,2010,friends,phone,6,<1/year or never,0,135,3.6664856056491035
+A,T2,10,2010,friends,written_email,1,3+ times/week,5,259,7.459677419354839
+A,T2,10,2010,friends,written_email,2,1-2 times/week,4,414,11.923963133640553
+A,T2,10,2010,friends,written_email,3,1-2 times/month,3,407,11.722350230414747
+A,T2,10,2010,friends,written_email,4,Every few months,2,295,8.496543778801843
+A,T2,10,2010,friends,written_email,5,1-2 times/year,1,309,8.899769585253456
+A,T2,10,2010,friends,written_email,6,<1/year or never,0,1788,51.49769585253456
+B,T1,9,2008,children,inperson,1,3+ times/week,5,480,15.281757402101242
+B,T1,9,2008,children,inperson,2,1-2 times/week,4,844,26.870423432028016
+B,T1,9,2008,children,inperson,3,1-2 times/month,3,791,25.183062718879338
+B,T1,9,2008,children,inperson,4,Every few months,2,525,16.71442215854823
+B,T1,9,2008,children,inperson,5,1-2 times/year,1,339,10.792741165234002
+B,T1,9,2008,children,inperson,6,<1/year or never,0,162,5.157593123209169
+B,T1,9,2008,children,phone,1,3+ times/week,5,1368,43.07304785894207
+B,T1,9,2008,children,phone,2,1-2 times/week,4,1161,36.55541561712846
+B,T1,9,2008,children,phone,3,1-2 times/month,3,485,15.270780856423174
+B,T1,9,2008,children,phone,4,Every few months,2,91,2.8652392947103276
+B,T1,9,2008,children,phone,5,1-2 times/year,1,24,0.7556675062972292
+B,T1,9,2008,children,phone,6,<1/year or never,0,47,1.4798488664987406
+B,T1,9,2008,children,written_email,1,3+ times/week,5,261,8.653846153846153
+B,T1,9,2008,children,written_email,2,1-2 times/week,4,406,13.461538461538462
+B,T1,9,2008,children,written_email,3,1-2 times/month,3,487,16.147214854111407
+B,T1,9,2008,children,written_email,4,Every few months,2,298,9.880636604774535
+B,T1,9,2008,children,written_email,5,1-2 times/year,1,292,9.681697612732096
+B,T1,9,2008,children,written_email,6,<1/year or never,0,1272,42.175066312997345
+B,T1,9,2008,other_relatives,inperson,1,3+ times/week,5,257,7.844932844932845
+B,T1,9,2008,other_relatives,inperson,2,1-2 times/week,4,538,16.42246642246642
+B,T1,9,2008,other_relatives,inperson,3,1-2 times/month,3,708,21.611721611721613
+B,T1,9,2008,other_relatives,inperson,4,Every few months,2,607,18.52869352869353
+B,T1,9,2008,other_relatives,inperson,5,1-2 times/year,1,695,21.214896214896214
+B,T1,9,2008,other_relatives,inperson,6,<1/year or never,0,471,14.377289377289378
+B,T1,9,2008,other_relatives,phone,1,3+ times/week,5,730,22.101120193763247
+B,T1,9,2008,other_relatives,phone,2,1-2 times/week,4,894,27.06630336058129
+B,T1,9,2008,other_relatives,phone,3,1-2 times/month,3,891,26.975476839237057
+B,T1,9,2008,other_relatives,phone,4,Every few months,2,472,14.29003935815925
+B,T1,9,2008,other_relatives,phone,5,1-2 times/year,1,190,5.752346351801393
+B,T1,9,2008,other_relatives,phone,6,<1/year or never,0,126,3.8147138964577656
+B,T1,9,2008,other_relatives,written_email,1,3+ times/week,5,135,4.291163382072473
+B,T1,9,2008,other_relatives,written_email,2,1-2 times/week,4,257,8.169103623649079
+B,T1,9,2008,other_relatives,written_email,3,1-2 times/month,3,434,13.795295613477432
+B,T1,9,2008,other_relatives,written_email,4,Every few months,2,406,12.905276541640179
+B,T1,9,2008,other_relatives,written_email,5,1-2 times/year,1,381,12.110616656071201
+B,T1,9,2008,other_relatives,written_email,6,<1/year or never,0,1533,48.72854418308964
+B,T1,9,2008,friends,inperson,1,3+ times/week,5,483,14.631929718267191
+B,T1,9,2008,friends,inperson,2,1-2 times/week,4,1123,34.01999394122993
+B,T1,9,2008,friends,inperson,3,1-2 times/month,3,899,27.234171463192972
+B,T1,9,2008,friends,inperson,4,Every few months,2,427,12.935474098757952
+B,T1,9,2008,friends,inperson,5,1-2 times/year,1,221,6.694940926991821
+B,T1,9,2008,friends,inperson,6,<1/year or never,0,148,4.483489851560133
+B,T1,9,2008,friends,phone,1,3+ times/week,5,805,24.364406779661017
+B,T1,9,2008,friends,phone,2,1-2 times/week,4,1105,33.44430992736078
+B,T1,9,2008,friends,phone,3,1-2 times/month,3,870,26.331719128329297
+B,T1,9,2008,friends,phone,4,Every few months,2,320,9.685230024213075
+B,T1,9,2008,friends,phone,5,1-2 times/year,1,121,3.662227602905569
+B,T1,9,2008,friends,phone,6,<1/year or never,0,83,2.5121065375302662
+B,T1,9,2008,friends,written_email,1,3+ times/week,5,226,7.273897650466688
+B,T1,9,2008,friends,written_email,2,1-2 times/week,4,375,12.069520437721275
+B,T1,9,2008,friends,written_email,3,1-2 times/month,3,412,13.26037978757644
+B,T1,9,2008,friends,written_email,4,Every few months,2,266,8.561313163823623
+B,T1,9,2008,friends,written_email,5,1-2 times/year,1,268,8.625683939491472
+B,T1,9,2008,friends,written_email,6,<1/year or never,0,1560,50.2092050209205
+B,T2,11,2012,children,inperson,1,3+ times/week,5,454,14.958813838550247
+B,T2,11,2012,children,inperson,2,1-2 times/week,4,799,26.32619439868204
+B,T2,11,2012,children,inperson,3,1-2 times/month,3,740,24.382207578253706
+B,T2,11,2012,children,inperson,4,Every few months,2,520,17.133443163097198
+B,T2,11,2012,children,inperson,5,1-2 times/year,1,305,10.049423393739703
+B,T2,11,2012,children,inperson,6,<1/year or never,0,217,7.149917627677101
+B,T2,11,2012,children,phone,1,3+ times/week,5,1309,42.513803182851575
+B,T2,11,2012,children,phone,2,1-2 times/week,4,1106,35.920753491393306
+B,T2,11,2012,children,phone,3,1-2 times/month,3,444,14.420266320233843
+B,T2,11,2012,children,phone,4,Every few months,2,117,3.7999350438454043
+B,T2,11,2012,children,phone,5,1-2 times/year,1,34,1.104254628126015
+B,T2,11,2012,children,phone,6,<1/year or never,0,69,2.240987333549854
+B,T2,11,2012,children,written_email,1,3+ times/week,5,233,7.860998650472335
+B,T2,11,2012,children,written_email,2,1-2 times/week,4,411,13.866396761133604
+B,T2,11,2012,children,written_email,3,1-2 times/month,3,457,15.418353576248313
+B,T2,11,2012,children,written_email,4,Every few months,2,279,9.412955465587045
+B,T2,11,2012,children,written_email,5,1-2 times/year,1,237,7.995951417004049
+B,T2,11,2012,children,written_email,6,<1/year or never,0,1347,45.445344129554655
+B,T2,11,2012,other_relatives,inperson,1,3+ times/week,5,259,8.136977693999372
+B,T2,11,2012,other_relatives,inperson,2,1-2 times/week,4,524,16.46245680175935
+B,T2,11,2012,other_relatives,inperson,3,1-2 times/month,3,669,21.017907634307257
+B,T2,11,2012,other_relatives,inperson,4,Every few months,2,612,19.227144203581528
+B,T2,11,2012,other_relatives,inperson,5,1-2 times/year,1,655,20.578071002199184
+B,T2,11,2012,other_relatives,inperson,6,<1/year or never,0,464,14.577442664153315
+B,T2,11,2012,other_relatives,phone,1,3+ times/week,5,744,23.19201995012469
+B,T2,11,2012,other_relatives,phone,2,1-2 times/week,4,872,27.18204488778055
+B,T2,11,2012,other_relatives,phone,3,1-2 times/month,3,800,24.93765586034913
+B,T2,11,2012,other_relatives,phone,4,Every few months,2,478,14.900249376558603
+B,T2,11,2012,other_relatives,phone,5,1-2 times/year,1,180,5.610972568578553
+B,T2,11,2012,other_relatives,phone,6,<1/year or never,0,134,4.177057356608479
+B,T2,11,2012,other_relatives,written_email,1,3+ times/week,5,145,4.654895666131621
+B,T2,11,2012,other_relatives,written_email,2,1-2 times/week,4,272,8.731942215088283
+B,T2,11,2012,other_relatives,written_email,3,1-2 times/month,3,400,12.841091492776886
+B,T2,11,2012,other_relatives,written_email,4,Every few months,2,357,11.460674157303371
+B,T2,11,2012,other_relatives,written_email,5,1-2 times/year,1,357,11.460674157303371
+B,T2,11,2012,other_relatives,written_email,6,<1/year or never,0,1584,50.85072231139647
+B,T2,11,2012,friends,inperson,1,3+ times/week,5,453,14.312796208530806
+B,T2,11,2012,friends,inperson,2,1-2 times/week,4,1046,33.04897314375987
+B,T2,11,2012,friends,inperson,3,1-2 times/month,3,834,26.350710900473935
+B,T2,11,2012,friends,inperson,4,Every few months,2,426,13.459715639810426
+B,T2,11,2012,friends,inperson,5,1-2 times/year,1,214,6.7614533965244865
+B,T2,11,2012,friends,inperson,6,<1/year or never,0,192,6.0663507109004735
+B,T2,11,2012,friends,phone,1,3+ times/week,5,737,23.18339100346021
+B,T2,11,2012,friends,phone,2,1-2 times/week,4,1087,34.193142497640764
+B,T2,11,2012,friends,phone,3,1-2 times/month,3,807,25.385341302296318
+B,T2,11,2012,friends,phone,4,Every few months,2,317,9.971689210443536
+B,T2,11,2012,friends,phone,5,1-2 times/year,1,108,3.3972947467757155
+B,T2,11,2012,friends,phone,6,<1/year or never,0,123,3.869141239383454
+B,T2,11,2012,friends,written_email,1,3+ times/week,5,221,7.170668397144711
+B,T2,11,2012,friends,written_email,2,1-2 times/week,4,392,12.7190136275146
+B,T2,11,2012,friends,written_email,3,1-2 times/month,3,404,13.108371187540557
+B,T2,11,2012,friends,written_email,4,Every few months,2,239,7.754704737183647
+B,T2,11,2012,friends,written_email,5,1-2 times/year,1,243,7.884490590525632
+B,T2,11,2012,friends,written_email,6,<1/year or never,0,1583,51.36275146009085
+
+COLUMN_EXPLANATION_START,column_name,meaning,interpretation,,,,,,,
+COLUMN_EXPLANATION,cohort,Cohort.,A or B.,,,,,,,
+COLUMN_EXPLANATION,timepoint,Cohort analysis timepoint.,T1 is the first contact measurement; T2 is the second.,,,,,,,
+COLUMN_EXPLANATION,wave,HRS wave number.,"8, 9, 10, or 11.",,,,,,,
+COLUMN_EXPLANATION,year,Calendar year.,"2006, 2008, 2010, or 2012.",,,,,,,
+COLUMN_EXPLANATION,relationship,Relationship domain.,"children, other_relatives, or friends.",,,,,,,
+COLUMN_EXPLANATION,modality,Contact method.,"inperson, phone, or written_email.",,,,,,,
+COLUMN_EXPLANATION,raw_code,Original HRS frequency response code.,Ranges from 1=most frequent to 6=least frequent.,,,,,,,
+COLUMN_EXPLANATION,raw_label,Human-readable meaning of the HRS raw code.,"Examples: 3+ times/week, 1-2 times/month, <1/year or never.",,,,,,,
+COLUMN_EXPLANATION,analysis_score,Reverse-coded 0-5 analysis score corresponding to raw_code.,Higher values mean more frequent contact.,,,,,,,
+COLUMN_EXPLANATION,count,Number of valid respondents in this raw response category.,Numerator used to construct the distribution.,,,,,,,
+COLUMN_EXPLANATION,percent_among_valid_group_yes,Percent among respondents who have the relationship group and gave a valid 1-6 response.,Primary percentage for comparing raw response distributions across waves/cohorts.,,,,,,,
+COLUMN_EXPLANATION_END,,,,,,,,,,

@@ -1,0 +1,26 @@
+Run Instructions
+
+Required files in the same folder:
+- modality_distribution_audit.py
+- extract_raw_lb_contact_modes.py
+- input_raw_lb_contact_modes_2006_2012.csv
+- HRS_participant_level_cohorts_current.csv
+- raw_lb
+  - H06LB_R.dct
+  - H08LB_R.dct
+  - H10LB_R.dct
+  - H12LB_R.dct
+
+
+Run:
+
+step 1: generate the input_raw_lb_contact_modes_2006_2012.csv
+$python extract_raw_lb_contact_modes.py raw_lb input_raw_lb_contact_modes_2006_2012.csv
+
+step 2: verify modality distribution
+
+$python modality_distribution_audit.py input_raw_lb_contact_modes_2006_2012.csv HRS_participant_level_cohorts_current.csv . --output-dir output
+
+
+The generated audit CSVs and figures will be written to:
+your_folder/output/
