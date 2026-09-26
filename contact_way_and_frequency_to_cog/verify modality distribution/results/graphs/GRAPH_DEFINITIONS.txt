@@ -1,0 +1,10 @@
+Graph definitions
+1) valid_frequency_by_relationship.png
+   Count = respondents with has_group_raw == 1 and at least one nonmissing modality score.
+
+2) modality_percentage_<relationship>.png
+   Denominator = valid_frequency_<relationship> from graph 1.
+   Numerator = respondents with nonmissing value in the named modality.
+
+3) analysis_score_lines_<relationship>_<modality>.png
+   Each line is one analysis score (0..5). Percentages come from analysis_score_distributions.csv.
