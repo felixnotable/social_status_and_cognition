@@ -1,0 +1,13 @@
+cohort,timepoint,wave,year,relationship,complete6_relationship_n,inperson_valid_n,inperson_percent_of_complete6,phone_valid_n,phone_percent_of_complete6,written_email_valid_n,written_email_percent_of_complete6
+A,T1,8,2006,children,4169,4169,100.0,4169,100.0,4169,100.0
+A,T1,8,2006,friends,4828,4828,100.0,4828,100.0,4828,100.0
+A,T1,8,2006,other_relatives,4883,4883,100.0,4883,100.0,4883,100.0
+B,T1,9,2008,children,3775,3775,100.0,3775,100.0,3775,100.0
+B,T1,9,2008,friends,4322,4322,100.0,4322,100.0,4322,100.0
+B,T1,9,2008,other_relatives,4383,4383,100.0,4383,100.0,4383,100.0
+A,T2,10,2010,children,4169,4169,100.0,4169,100.0,4169,100.0
+A,T2,10,2010,friends,4828,4828,100.0,4828,100.0,4828,100.0
+A,T2,10,2010,other_relatives,4883,4883,100.0,4883,100.0,4883,100.0
+B,T2,11,2012,children,3775,3775,100.0,3775,100.0,3775,100.0
+B,T2,11,2012,friends,4322,4322,100.0,4322,100.0,4322,100.0
+B,T2,11,2012,other_relatives,4383,4383,100.0,4383,100.0,4383,100.0

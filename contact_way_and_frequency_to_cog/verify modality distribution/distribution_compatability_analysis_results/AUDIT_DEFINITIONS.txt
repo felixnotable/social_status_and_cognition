@@ -1,0 +1,27 @@
+Audit sample definition
+
+For each relationship domain separately, include only participants with all six
+derived contact-frequency scores nonmissing:
+  T1 in-person
+  T1 phone
+  T1 written/email
+  T2 in-person
+  T2 phone
+  T2 written/email
+
+No cognition or covariate completeness is required for this audit.
+
+Graph 1:
+  valid_frequency_by_relationship.png
+  Count = complete-six longitudinal contact sample for that relationship.
+
+Graph 2:
+  modality_percentage_<relationship>.png
+  All three modality lines equal 100% by construction because every participant
+  has every modality at both T1 and T2.
+
+Graph 3:
+  analysis_score_lines_<relationship>_<modality>.png
+  Each line is one analysis score (0..5).
+  Percentages use the same fixed complete-six denominator for that relationship
+  and cohort.

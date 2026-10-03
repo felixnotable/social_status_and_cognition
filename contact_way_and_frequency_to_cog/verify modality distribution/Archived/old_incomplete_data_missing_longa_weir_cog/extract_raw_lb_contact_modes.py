@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Task 07 step 1: Extract relation-specific contact mode frequencies from raw HRS LB files.
+Extract relation-specific contact mode frequencies from raw HRS LB files.
 
 Categories
 ----------
