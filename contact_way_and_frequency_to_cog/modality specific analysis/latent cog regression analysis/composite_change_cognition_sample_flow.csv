@@ -1,0 +1,13 @@
+relationship,stage,n
+children,Complete six contact measures,7944
+children,Plus observed latent cognition at T2,5864
+children,Plus observed latent cognition at T3,5335
+children,Plus complete core covariates,5332
+other_relatives,Complete six contact measures,9266
+other_relatives,Plus observed latent cognition at T2,6581
+other_relatives,Plus observed latent cognition at T3,5976
+other_relatives,Plus complete core covariates,5973
+friends,Complete six contact measures,9150
+friends,Plus observed latent cognition at T2,6487
+friends,Plus observed latent cognition at T3,5886
+friends,Plus complete core covariates,5883

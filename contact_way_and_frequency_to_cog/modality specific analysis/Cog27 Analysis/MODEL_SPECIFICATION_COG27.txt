@@ -1,0 +1,9 @@
+Outcome: Langa-Weir cog27_T3
+Baseline cognition: cog27_T2
+Exposure: equal-weight T1 contact composite + T1->T2 composite change
+Covariates: age_T2 centered at 75, sex_T2, education_T2, race_ethnicity_T2,
+asinh(wealth_T2/100000), 4-category marital status, and cohort in pooled models.
+Eligibility: complete six contact modality scores + cog27_T2 + cog27_T3 + T2 covariates.
+Estimator: OLS with HC3 robust standard errors.
+Multiplicity: BH-FDR across children, other relatives, and friends within each stratum.
+No latent Cog completeness and no loneliness variables are required.

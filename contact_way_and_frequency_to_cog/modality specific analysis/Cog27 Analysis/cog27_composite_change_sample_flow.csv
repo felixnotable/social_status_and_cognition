@@ -1,0 +1,46 @@
+analysis,relationship,stage,n
+Pooled,children,Master cohort rows in stratum,14744
+Pooled,children,Complete six contact measures,7944
+Pooled,children,Plus observed cog27 at T2,7767
+Pooled,children,Plus observed cog27 at T3,7092
+Pooled,children,Plus complete core covariates,7083
+A,children,Master cohort rows in stratum,7708
+A,children,Complete six contact measures,4169
+A,children,Plus observed cog27 at T2,4078
+A,children,Plus observed cog27 at T3,3774
+A,children,Plus complete core covariates,3771
+B,children,Master cohort rows in stratum,7036
+B,children,Complete six contact measures,3775
+B,children,Plus observed cog27 at T2,3689
+B,children,Plus observed cog27 at T3,3318
+B,children,Plus complete core covariates,3312
+Pooled,other_relatives,Master cohort rows in stratum,14744
+Pooled,other_relatives,Complete six contact measures,9266
+Pooled,other_relatives,Plus observed cog27 at T2,9061
+Pooled,other_relatives,Plus observed cog27 at T3,8280
+Pooled,other_relatives,Plus complete core covariates,8265
+A,other_relatives,Master cohort rows in stratum,7708
+A,other_relatives,Complete six contact measures,4883
+A,other_relatives,Plus observed cog27 at T2,4778
+A,other_relatives,Plus observed cog27 at T3,4419
+A,other_relatives,Plus complete core covariates,4411
+B,other_relatives,Master cohort rows in stratum,7036
+B,other_relatives,Complete six contact measures,4383
+B,other_relatives,Plus observed cog27 at T2,4283
+B,other_relatives,Plus observed cog27 at T3,3861
+B,other_relatives,Plus complete core covariates,3854
+Pooled,friends,Master cohort rows in stratum,14744
+Pooled,friends,Complete six contact measures,9150
+Pooled,friends,Plus observed cog27 at T2,8952
+Pooled,friends,Plus observed cog27 at T3,8178
+Pooled,friends,Plus complete core covariates,8164
+A,friends,Master cohort rows in stratum,7708
+A,friends,Complete six contact measures,4828
+A,friends,Plus observed cog27 at T2,4727
+A,friends,Plus observed cog27 at T3,4375
+A,friends,Plus complete core covariates,4368
+B,friends,Master cohort rows in stratum,7036
+B,friends,Complete six contact measures,4322
+B,friends,Plus observed cog27 at T2,4225
+B,friends,Plus observed cog27 at T3,3803
+B,friends,Plus complete core covariates,3796

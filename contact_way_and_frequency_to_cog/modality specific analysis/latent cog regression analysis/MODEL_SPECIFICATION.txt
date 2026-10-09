@@ -1,0 +1,33 @@
+Primary latent-cognition model
+
+Outcome:
+  Cog_T3 (continuous latent cognition; higher = better)
+
+Main exposure:
+  Equal-weight overall contact change = T2 composite - T1 composite
+
+Baseline exposure:
+  Equal-weight T1 contact composite
+
+Baseline cognition adjustment:
+  Cog_T2
+
+Core covariates:
+  age_T2 centered at 75
+  sex_T2 (Female reference)
+  education_T2 (years)
+  race_ethnicity_T2 (White, non-Hispanic reference)
+  asinh(wealth_T2 / 100000)
+  marital status grouped to:
+      Married/partnered (reference)
+      Separated/divorced
+      Widowed
+      Never married
+  cohort (A reference)
+
+Estimator:
+  OLS with HC3 robust standard errors
+
+Samples:
+  Relationship-specific complete-six T1/T2 contact sample,
+  then complete-case T2/T3 latent cognition and core covariates.
